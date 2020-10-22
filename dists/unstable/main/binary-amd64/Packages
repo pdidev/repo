@@ -1,0 +1,1276 @@
+Package: flowvr
+Priority: optional
+Section: libs
+Installed-Size: 92688
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Version: 2.3.2-1.pdidev.61142749
+Depends: freeglut3 (>= 2.8.1), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgl1, libhwloc15 (>= 2.8.0), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), freeglut3-dev, libglew-dev, libgraphviz-dev, libhwloc-dev, libopenmpi-dev, libxi-dev, libxml2-dev, libxmu-dev, libxslt1-dev, mesa-common-dev
+Filename: pool/main/f/flowvr/flowvr_2.3.2-1.pdidev.61142749_amd64.deb
+Size: 52943676
+MD5sum: 9e655f4ae8a7aaaba7551fb3dd8801d3
+SHA1: 8fa2a68e16dd0a354bb1b4c9a65ca0a9d5a60138
+SHA256: 0b4bb134db746fb97d11810adf0eff76b58451618526155b3d3a46c1dd6dcfbd
+SHA512: 5d318d068e060e90c4dd6ec3910f78a3d094b99121abd1cb7b93a649f57dd4456ada11d99222e4a4dcca11fa8aad8084de177da2a33e85e26694ba49315506c8
+Description: the FlowVR in situ and in transit processing middleware
+ FlowVR is an open source middleware to augment parallel simulations running on
+ thousands of cores with in situ processing capabilities and live steering.
+ FlowVR offers a very flexible environment while enabling high performance
+ asynchronous in situ and in transit processing.
+Homepage: http://flowvr.sourceforge.net/
+
+Package: flowvr-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 13631
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: flowvr
+Version: 2.3.2-1.pdidev.61142749
+Depends: flowvr (= 2.3.2-1.pdidev.61142749)
+Filename: pool/main/f/flowvr/flowvr-dbgsym_2.3.2-1.pdidev.61142749_amd64.deb
+Size: 12933724
+MD5sum: bad0528b54ad60b7ba8182a7013c7ae5
+SHA1: a596d1c3d2999c799d1f48a4be69cdd3ec815a41
+SHA256: 549b95e5d63942a442283aa3ed740d8f3627a52977de64866643c433b8f38995
+SHA512: 2e892a9f73ee03587616adc20b5101345c3f8ecfa761a1705ea718c4e288266f330ae9a1f41773857d3adfa93cb2fd4c6b6606e45999f4d3f90468cac37c6f23
+Description: debug symbols for flowvr
+Auto-Built-Package: debug-symbols
+Build-Ids: 068dd43407e9e86a4c6a02041baed05fc04f3fa5 0bf6eb4361e6c296416b6d68787b829326d7a9aa 1453b827aa385ae02479fd0ca3f9d17745240208 185ca3691a2c008857e79985f17bbaef5f91feb4 26e67a1327f0b357ef48e84e8977ce4eb4ad67b4 29d71de04ab406313ea47eb7da41083cda5e4360 319b8813672b00d6e59b170fc2e81a958e8fc98b 32e4ec04bf9413ed506fe05479b4a0f77962ed1c 35160d15f1e1f54e844ab359bf169b06e94d4cb5 35540243774d994eb5afb933cb6485dbb734fd47 39cb6b9c7e50649c0dc8414825d252268e27708d 42e948734759dbb8dfdcece0fab6842abacc4e13 443ab90f5624c683bbac07fb7603f73c617ce9f4 4b03fb74f21ecbca8c2f6581363c81b002106336 4fe24b74c2407902c0d76b9d3922a64a9e1ab2a2 55845be41292f0d6ecfe93425979e7cce1dd265b 570a11348320362f708470a3ac29a30019970e0b 577cc73071d594cb3757edb4c72c6e6ee80e4d9f 5879b8e90a9e7fd5193588f21a5257996fdeb211 5b146fb642e45f6c4947e084036322eae990b1ec 68701c7ab45c1fcfb471cb3dd01d13ba1690dd62 716050a8e054aa905cb8c4e60e244e5ca6af6f48 74d528c8505580f389eb1c33582ce00fdc00a8f4 790cdfe29129db90deb603b469758f36ad0e054f 7a61bc7ea554a3e922cc7ab2c0322deac5a6a9a9 7ef1a5db34b9c8d3ef56dd98d273863e839fc555 819fd9b096bd66026b79ec024db8be262118acf5 8975bb28b35df433ba988659085587e96a42e392 91bcc230752107a8f05389967aafae18b39c6c51 99a54ee999e52ee3f43154c6968a5d961a8f3d42 9d9072522446c483f4918273d1ecb22d3fde753f 9fcbbc661ee90398ddd0af40cdb1c5cb1e0bd8f4 a7a964d8bbffa46ad05f08412cfb8781a61a0e13 a80b6b4744c04924d23374e57e74163f9b16db16 adf700a8d51ff0235e22eb5e4a59dc5295817b4c af79c73722a15c94ca361df829ce5f8a166fecb8 b3bdc45dd49eb258e4caa01403b93bbeafb4f7c5 b5baeaecee7a0606d03ca777b2912df47ef2f944 c0f0a6ee158730bc3b9717003124597c7e7fa904 cd62b288e8c59b150398c2c0675e568d6c45069c d1dd4a024d99c397c150d10883102aff3551f481 d6891d776945bd1d9788054c5a954456aa56040f daa5d731d8adfac8dabb6ac352caab4e5e7865b2 df09126301a56d337ffe3cbb82bd5552afd92ffa e83e74375ee5daf1fbd20490ad81edf5424d4dfd e8f72ae300f0be15aaa3308f652f4da705482fc4 ec2a541676fab3cfea72602d61bee77f92c8fcc9 ef3bc512fef94e04769c00cbe00db91b35645ced efae668a3b806aa5d0c8282aabfe83f58cc4fce8 f01436858deac0dc35c5eb52a1e8dfaee1a7a77d f41e91851c1ff25f7ebcd1c747860739e75e6460 f90293c9757ac07c469653e670fbf205fa64a6f6
+
+Package: libfti-mpich-1
+Priority: optional
+Section: libs
+Installed-Size: 441
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: fti
+Version: 1.6-1.pdidev.25912345
+Provides: libfti1
+Depends: dpkg-dev, libc6 (>= 2.33), libmpich12 (>= 4.0.2-2), libssl3 (>= 3.0.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/f/fti/libfti-mpich-1_1.6-1.pdidev.25912345_amd64.deb
+Size: 169180
+MD5sum: 6070b43636c60d33beaee1f9f948f3be
+SHA1: 2ea914dc058ed7de4fc8e0256b750b8ef8f83c35
+SHA256: b46455888b87254584a3fb4868661be21a231f9b94eca93d0b5fdc7407440380
+SHA512: c2b5a45465764cb32059d3c732f3e36bf639812baafadadb9df9e6d207e34e97c931d638987374e4534b1b06366ac4a9ea2c77274beccd92187ac4cc67dfc412
+Description: a library for fast and efficient multilevel checkpointing
+ FTI stands for Fault Tolerance Interface and is a library that aims to give
+ computational scientists the means to perform fast and efficient multilevel
+ checkpointing in large scale supercomputers
+Homepage: https://github.com/leobago/fti
+
+Package: libfti-mpich-1-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 564
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: fti
+Version: 1.6-1.pdidev.25912345
+Depends: libfti-mpich-1 (= 1.6-1.pdidev.25912345)
+Filename: pool/main/f/fti/libfti-mpich-1-dbgsym_1.6-1.pdidev.25912345_amd64.deb
+Size: 529688
+MD5sum: 2e43e7a2860f05e0a1dc9616f5db0f4d
+SHA1: 25760f31c895dc58a94c784c94611ffa8fa44a8d
+SHA256: 0e99dd6e6770c9c83c5e340f56c30b8ddf3397245feed7b1428fd2e733ed1d36
+SHA512: e036b3ede9e75bf0c56d2a8445b8d637f2a95e0905eb36628f8e9a1a7604f08bb6903f1d5c3d24fdfaa3c1a9f53364619dcf7e1f144119ca4554d778529143ec
+Description: debug symbols for libfti-mpich-1
+Auto-Built-Package: debug-symbols
+Build-Ids: 2b1c034e1a88a2c60275f3fd4cb596a5dc87bf43
+
+Package: libfti-mpich-dev
+Priority: optional
+Section: libs
+Installed-Size: 755
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: fti
+Version: 1.6-1.pdidev.25912345
+Depends: libfti-mpich-1 (= 1.6-1.pdidev.25912345), libssl-dev, mpich, libmpich-dev
+Filename: pool/main/f/fti/libfti-mpich-dev_1.6-1.pdidev.25912345_amd64.deb
+Size: 192596
+MD5sum: 5fe21097a3b11f08de6c555e9bc5bdc8
+SHA1: 47d822795f4a9963111252fb2b5f540cd7973b9f
+SHA256: 3bf9dd895aac3e93553715cd8774a938dd99b4477f1ab20e18afb0b3b4802847
+SHA512: c852f35013666b40ef805a0ffaa9932ea2bc4b4cf17332349c7e53a7d947fb651068dc44a1b9bb0adfb98fc590e05d6f1b55eff645e68ea46ab6f15fd76d2b69
+Description: a library for fast and efficient multilevel checkpointing
+ FTI stands for Fault Tolerance Interface and is a library that aims to give
+ computational scientists the means to perform fast and efficient multilevel
+ checkpointing in large scale supercomputers
+Homepage: https://github.com/leobago/fti
+
+Package: libfti-openmpi-1
+Priority: optional
+Section: libs
+Installed-Size: 441
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: fti
+Version: 1.6-1.pdidev.25912345
+Provides: libfti1
+Depends: dpkg-dev, libc6 (>= 2.33), libopenmpi3 (>= 4.1.4), libssl3 (>= 3.0.0), zlib1g (>= 1:1.1.4)
+Filename: pool/main/f/fti/libfti-openmpi-1_1.6-1.pdidev.25912345_amd64.deb
+Size: 169828
+MD5sum: 6e7b0b7fc9b7f95cc83466e09fd7bfc5
+SHA1: ba5ade7b07c9a2384b905c776c542b830d7711c6
+SHA256: 4990abe3d6f738036bb95919495f71821ac5766104c24cc923d5f874d7aee214
+SHA512: d8c4ee7a333c3626e24ab3332e081b78f217c38fe44cfb6505170b9f39eff56777bb18c9ab0224b17d31737bca1637de9eb4e3c62bb7b08e585356532d0f7b8d
+Description: a library for fast and efficient multilevel checkpointing
+ FTI stands for Fault Tolerance Interface and is a library that aims to give
+ computational scientists the means to perform fast and efficient multilevel
+ checkpointing in large scale supercomputers
+Homepage: https://github.com/leobago/fti
+
+Package: libfti-openmpi-1-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 566
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: fti
+Version: 1.6-1.pdidev.25912345
+Depends: libfti-openmpi-1 (= 1.6-1.pdidev.25912345)
+Filename: pool/main/f/fti/libfti-openmpi-1-dbgsym_1.6-1.pdidev.25912345_amd64.deb
+Size: 531392
+MD5sum: 78fe854dd849a8a3f86d82249d0ed143
+SHA1: 00861110a6530fe0e90beae871dcc66f8349b861
+SHA256: 98a2e7e8cc0386bf3dcb51b0fd447937ddd14195e84cde6aabffaa0369ba5817
+SHA512: 709f4828c2a60d444bb0a6e75dae231cc164dc69a35663d8543406e96391fa2371865cf01173998ba449b5cb0bbce4b2793fdf70253530ccce3d16f44c26e43c
+Description: debug symbols for libfti-openmpi-1
+Auto-Built-Package: debug-symbols
+Build-Ids: 5ad8349cf3c4cbb1f618c7e51d2caec52c6c6fd1
+
+Package: libfti-openmpi-dev
+Priority: optional
+Section: libs
+Installed-Size: 760
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: fti
+Version: 1.6-1.pdidev.25912345
+Provides: libfti-dev
+Depends: libfti-openmpi-1 (= 1.6-1.pdidev.25912345), libssl-dev, openmpi-bin, libopenmpi-dev
+Filename: pool/main/f/fti/libfti-openmpi-dev_1.6-1.pdidev.25912345_amd64.deb
+Size: 193296
+MD5sum: 7a222d87e0431841da6bde3ca9fa7e3a
+SHA1: d0d1ae77c34be2916f3cce92581419d4fceab22c
+SHA256: ac71e31c105cf9086cf3551bc1a6363d9607a80c9f742a515762354a9eca3fa1
+SHA512: e7d30273d7ad9354a959c97ad34962eb4ddc101b1c9e001110e1127f8d08d0a19aa176cd14ac3d9372d9ae09fd4a7e72c6cc5881e19b2bfc5ad3da21475740fe
+Description: a library for fast and efficient multilevel checkpointing
+ FTI stands for Fault Tolerance Interface and is a library that aims to give
+ computational scientists the means to perform fast and efficient multilevel
+ checkpointing in large scale supercomputers
+Homepage: https://github.com/leobago/fti
+
+Package: libparaconf-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 67
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: paraconf
+Version: 0.4.16-1.pdidev.1878259
+Depends: gfortran-12 | gfortran-mod-15, libparaconf-f90.0 (= 0.4.16-1.pdidev.1878259), libyaml-dev
+Recommends: cmake (>= 3.5), pkg-config
+Filename: pool/main/p/paraconf/libparaconf-dev_0.4.16-1.pdidev.1878259_amd64.deb
+Size: 14300
+MD5sum: ce149e7c79c23ab4098eebb8ef976fd6
+SHA1: d728c57c1159ed40c1b28ba9b0a72ae578469f8c
+SHA256: 25e74858a5f8c637e5e3f4ebbed4759fc86b734d5fbdbae57494e29c0e21c92e
+SHA512: 7a107f21e5f2bfda04bcc5b1c5deb880e6745a745d46a23f3c44723a39b020a19cdb2071497fc03f36ff0bbe75b2ccc3d7eed2cfafe18b2e3c50d2b542909496
+Description: Development files for libparaconf
+ The libparaconf-dev package contains C/C++/F90 header files for developing
+ applications that use libparaconf.
+Homepage: https://github.com/pdidev/paraconf
+
+Package: libparaconf-f90.0
+Priority: optional
+Section: libs
+Installed-Size: 26
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: paraconf
+Version: 0.4.16-1.pdidev.1878259
+Depends: libc6 (>= 2.14), libgfortran5 (>= 8), libparaconf0 (= 0.4.16-1.pdidev.1878259)
+Filename: pool/main/p/paraconf/libparaconf-f90.0_0.4.16-1.pdidev.1878259_amd64.deb
+Size: 4804
+MD5sum: 7b1ccade38c5c3007753aeaacd40e4a7
+SHA1: 01143a045bec1a6dc8d523d1eddfd63be8d2eb85
+SHA256: 6ee83a9390475258944a39598b61f6c8a4b74557cfec39db7b85f1b327a5df93
+SHA512: e89bbb7c50bda0fb4f3ed2e92fb725e87f07d24fd5799753b1f26dcad3d1a1136bded875abe825452a411e53f71480351124f35692cb249d6a8e3eb9844d5e3f
+Description: provide a simple query language to access a Yaml tree on top of libyaml
+ Paraconf is a library that provides a simple query language to
+ access a Yaml tree on top of libyaml.
+Homepage: https://github.com/pdidev/paraconf
+
+Package: libparaconf-f90.0-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 21
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: paraconf
+Version: 0.4.16-1.pdidev.1878259
+Depends: libparaconf-f90.0 (= 0.4.16-1.pdidev.1878259)
+Filename: pool/main/p/paraconf/libparaconf-f90.0-dbgsym_0.4.16-1.pdidev.1878259_amd64.deb
+Size: 7272
+MD5sum: b635a12c11df27f56e2c0f442a173f23
+SHA1: 9c725b2490ad503119a43e3674820066f7aecad2
+SHA256: 41341369e08eea4a9f5a09e8599d1f28ef8ceb43b84b143070e3d42aa00ad483
+SHA512: b441b662e72bafa31fb3d4e07a772820eb268c4ab32b324e78d5a9b0dbe196e248066dea1be226da1874f5ceaff4b2049067090ec68d5e6c3643c51c5d1c5a59
+Description: debug symbols for libparaconf-f90.0
+Auto-Built-Package: debug-symbols
+Build-Ids: 14ce69eaf04c45cf936a1fb6a1fc1bad963851a1
+
+Package: libparaconf0
+Priority: optional
+Section: libs
+Installed-Size: 34
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: paraconf
+Version: 0.4.16-1.pdidev.1878259
+Depends: libc6 (>= 2.34), libyaml-0-2
+Filename: pool/main/p/paraconf/libparaconf0_0.4.16-1.pdidev.1878259_amd64.deb
+Size: 8020
+MD5sum: 33fc8e8acbd5f58dc122d8147955e18e
+SHA1: d71092467bdff16e7a72868b01fd46ac441ba8ce
+SHA256: 3a837ded2d99f7ae16ae4e98616eb1fb48e6d0cb3b2bf02ac584fd058eabe724
+SHA512: 0f2a9802b1184837384e0d25c805ea4e2219295787f772d39437a031407348bd7a124e1c53bc9d76195b925e2198527b15de90f8805b3807057e7d2a84061dc3
+Description: provide a simple query language to access a Yaml tree on top of libyaml
+ Paraconf is a library that provides a simple query language to
+ access a Yaml tree on top of libyaml.
+Homepage: https://github.com/pdidev/paraconf
+
+Package: libparaconf0-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 34
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: paraconf
+Version: 0.4.16-1.pdidev.1878259
+Depends: libparaconf0 (= 0.4.16-1.pdidev.1878259)
+Filename: pool/main/p/paraconf/libparaconf0-dbgsym_0.4.16-1.pdidev.1878259_amd64.deb
+Size: 19896
+MD5sum: 76b795d74dcf8871622ce4b04908a36c
+SHA1: 29da076f2e99e804c0f7fab870786d09b8d1454c
+SHA256: 761364dcbdc80d89805bd62ccd20a02cfb4ea4d686b252ee8f1f7db1196945b2
+SHA512: 00092d487595a16b4e1c643c8339d12fed37b1b30e93c22660b62d8fcb2b1f14cdd031fc1a6daa4331eaca6eadfe3be1b3518993c959de35cd0f1361916501c2
+Description: debug symbols for libparaconf0
+Auto-Built-Package: debug-symbols
+Build-Ids: 56991eae2e2131723120d2afbcb5e458c3aa82e9
+
+Package: libpdi-dev
+Priority: optional
+Section: libs
+Installed-Size: 239
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: gfortran-12 | gfortran-mod-15, libpdi-f90.1 (= 1.5.5-1.pdidev.971), python3-pdi (= 1.5.5-1.pdidev.971), libfmt-dev (>= 6.1.2), libparaconf-dev (>= 0.4.16), libspdlog-dev (>= 1.3.1), pybind11-dev (>= 2.3.0), python3-dev (>= 3.5), python3-numpy
+Recommends: cmake, pkg-config, pdiplugin-all
+Filename: pool/main/p/pdi/libpdi-dev_1.5.5-1.pdidev.971_amd64.deb
+Size: 52076
+MD5sum: 9599e910718eb9146518d29f2721f793
+SHA1: 97a346e828500d775d3efdb65e8f34281d020b6c
+SHA256: 35b12cb5a6da241b08f2e79f9c6bbd8454efbfbe8e70605ba48278f99d9f6b1b
+SHA512: 3180548428fca7bded50d2a411e066fc27f0be7f89dccf7a66eb1838e1670e37bcd537e8e2de2a6254d3103d096b72d9797c74e76f084db54f63b5265581006a
+Description: Development files for PDI
+ The pdi-dev package contains C/C++/Fortran header files for developing
+ applications or plugins that use PDI.
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: libpdi-f90.1
+Priority: optional
+Section: libs
+Installed-Size: 100
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: libc6 (>= 2.14), libgfortran5 (>= 8), libparaconf0, libpdi1 (= 1.5.5-1.pdidev.971)
+Filename: pool/main/p/pdi/libpdi-f90.1_1.5.5-1.pdidev.971_amd64.deb
+Size: 12988
+MD5sum: aa3b2a6fbe259cbc9c2f17ad93e6a5a9
+SHA1: dc21d6d808abcb4c9866a41a4752bcd2b00d41c0
+SHA256: ee2a803dabec744920bda7006500f7254dde2db176b05cc71019493bead2ba5d
+SHA512: ee47e98743093ac5c23be8c41778421280c2584fac2114921cdf4d484a083064db842e7646ef1daa1f062872c06e2d1752e98fe11c99ec9e5f13fcda270f853c
+Description: the PDI Data Interface for fortran
+ PDI is a library that aims to decouple high-performance simulation
+ codes from Input/Output concerns.
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: libpdi-f90.1-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 80
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: libpdi-f90.1 (= 1.5.5-1.pdidev.971)
+Filename: pool/main/p/pdi/libpdi-f90.1-dbgsym_1.5.5-1.pdidev.971_amd64.deb
+Size: 58936
+MD5sum: daa858731940c1d6ae94078f71e61c0e
+SHA1: 41f8c66659a479ae870d7db390872f02e28516aa
+SHA256: 0481c09aafa22dce1032b2e4f3f8a96aa4692965ecaf46ed975670aca2c6cb25
+SHA512: 6ea65c036223afdc827af254c65bf76583bd9977079d4780b42066f7b158b016f6820f3a34c5a8712b6e5ee1f1745d2995e81410a771aa80d6a813f3c96b3a10
+Description: debug symbols for libpdi-f90.1
+Auto-Built-Package: debug-symbols
+Build-Ids: cedbf94721035265b841df54a4982c39ac3dda7f
+
+Package: libpdi-pysupport1
+Priority: optional
+Section: libs
+Installed-Size: 189
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libpdi1 (= 1.5.5-1.pdidev.971), libstdc++6 (>= 11)
+Filename: pool/main/p/pdi/libpdi-pysupport1_1.5.5-1.pdidev.971_amd64.deb
+Size: 62756
+MD5sum: 5842fcead8fef81ea13d20ba9bd56700
+SHA1: 53000764a27a3592f346ac9928b9593a761a9c34
+SHA256: 2957c3c61901e75c692f9dcda7e4d74b6e66fce400036c3fb78fadf3414eaaa9
+SHA512: fb9bb630d6c0e9ae75aa850495d38cc3941e7e92e4af7512d90da8a212ed99e3c654ee26cb38aa572ec691cdcd1a1ee1cd62e862f4c213a23465142cea5be069
+Description: the PDI Data Interface python support library
+ PDI is a library that aims to decouple high-performance simulation
+ codes from Input/Output concerns.
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: libpdi-pysupport1-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 1519
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: libpdi-pysupport1 (= 1.5.5-1.pdidev.971)
+Filename: pool/main/p/pdi/libpdi-pysupport1-dbgsym_1.5.5-1.pdidev.971_amd64.deb
+Size: 1509644
+MD5sum: d07abdd075534f9f3e5283265d4d3d41
+SHA1: 4e122b411d30b30f4af08187220d4443bd58cc04
+SHA256: 6ec9fe23798627d31a536d258949930845a5361f99ad12b30896b6473958680f
+SHA512: a88bc165f4cfcf2199f5fd3aff06121f2b4f54d42b9c867b591352a16a394f0fc4136801d53be4d6d85e4cdabc8e628ca76828505b7c6aaaa0c0ccb2a30bfafd
+Description: debug symbols for libpdi-pysupport1
+Auto-Built-Package: debug-symbols
+Build-Ids: 9fc0bf71130c1e0ee93f52ae2c82d66de003a673
+
+Package: libpdi1
+Priority: optional
+Section: libs
+Installed-Size: 1734
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libparaconf0, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Recommends: pdiplugin-serialize, pdiplugin-set-value, pdiplugin-trace, pdiplugin-user-code
+Suggests: pdiplugin-all
+Filename: pool/main/p/pdi/libpdi1_1.5.5-1.pdidev.971_amd64.deb
+Size: 353372
+MD5sum: 1dc31c08f9ac84cf46663165f60c0024
+SHA1: d55079988e5e6b874cf293c2e3ec4231787a8128
+SHA256: a0ebe8c9c790b7d5eb1d001cd7c6c9ad245ce84252177c59bfd813d8f77d9ad6
+SHA512: 84d7e8268da711b0ab5737c59a1251c3dd701c946338e1f3e393adcb612e1062da4031a807ac66328c5b9b0a46a94c5b15160c41e0ef666dee133d8b189db737
+Description: the PDI Data , main library
+ PDI is a library that aims to decouple high-performance simulation
+ codes from Input/Output concerns.
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: libpdi1-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 10403
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: libpdi1 (= 1.5.5-1.pdidev.971)
+Filename: pool/main/p/pdi/libpdi1-dbgsym_1.5.5-1.pdidev.971_amd64.deb
+Size: 9551492
+MD5sum: 453ea4910e9c1dccc0a2c0b99b782429
+SHA1: 4ca0f885b3f8a14e18b75830de77e7213a3f9c76
+SHA256: 4f6270d5eac7dd39359f610085ac75584ffbd6ad83f49a9321bee5f641be94c0
+SHA512: 03d28d6b3bb64348f4829f317fcee5d83bde6290ad5bf90b69b81ddb7fa117c3525b8c0a948d651e7763b4c86ecf28ca0d45551938e09dd7136544cd76ea4995
+Description: debug symbols for libpdi1
+Auto-Built-Package: debug-symbols
+Build-Ids: 38c705d9ab448307c0e52cdbe48aa9e7c75f060a
+
+Package: libsion-headers
+Priority: optional
+Section: libs
+Installed-Size: 45
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: all
+Source: sionlib
+Version: 1.7.7-1.pdidev.23764013
+Filename: pool/main/s/sionlib/libsion-headers_1.7.7-1.pdidev.23764013_all.deb
+Size: 7240
+MD5sum: aad3c65b140f1f990b0bb58e30845324
+SHA1: e310fe6e74d22c1f577f2494f4fdfbd10bc99a95
+SHA256: ea2aa768f6ec9bc70f0199cc4be6235be45460cdd644f50b6d9de435da8adc02
+SHA512: dc447cdce9a5137a7c2b3c301cdc4010d103de181e864a09ab805212762b8809678f9c8298f1c21e7b3c3b4f430b8a7943e405c7aaa1740ff168cbe905df86a6
+Description: a parallel input output library, OpenMPI version
+ SIONlib is a library for writing and reading binary data to/from several
+ thousands of processors into one or a small number of physical files. For
+ parallel access to files only the open and close functions are collective while
+ writing and reading file can be done asynchronously. SIONlib provides a SIONlib
+ file handle which substitutes the C file pointer.
+Homepage: https://www.fz-juelich.de/ias/jsc/EN/Expertise/Support/Software/SIONlib/_node.html
+
+Package: libsion-mpich-dev
+Priority: optional
+Section: libs
+Installed-Size: 1096
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: sionlib
+Version: 1.7.7-1.pdidev.23764013
+Provides: libsion-dev
+Depends: libc6 (>= 2.34), libsion-headers (= 1.7.7-1.pdidev.23764013), mpich, libmpich-dev
+Filename: pool/main/s/sionlib/libsion-mpich-dev_1.7.7-1.pdidev.23764013_amd64.deb
+Size: 109884
+MD5sum: 9acc6221fb4080e09857f1a7dd243ca2
+SHA1: b16f1519e7763d8d2275acea54365a67bb622b15
+SHA256: 67dda170e3d3fe9b4b13080c9f09185781ce53e3aee1d1db763863d144a14512
+SHA512: 773c1cb9fa4de76bccb422b054c56dc0c466794404978030f217cbbb394cb03bfa46d7e74df332fc4a60d17d87cd5351c6f380b5de4890aa4f6c9bbd0c880755
+Description: a parallel input output library, OpenMPI version
+ SIONlib is a library for writing and reading binary data to/from several
+ thousands of processors into one or a small number of physical files. For
+ parallel access to files only the open and close functions are collective while
+ writing and reading file can be done asynchronously. SIONlib provides a SIONlib
+ file handle which substitutes the C file pointer.
+Homepage: https://www.fz-juelich.de/ias/jsc/EN/Expertise/Support/Software/SIONlib/_node.html
+
+Package: libsion-mpich-dev-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 312
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: sionlib
+Version: 1.7.7-1.pdidev.23764013
+Depends: libsion-mpich-dev (= 1.7.7-1.pdidev.23764013)
+Filename: pool/main/s/sionlib/libsion-mpich-dev-dbgsym_1.7.7-1.pdidev.23764013_amd64.deb
+Size: 209268
+MD5sum: 57ea142b76a672c83380cb2c7159b3aa
+SHA1: 4fa9edd7ca64265dde1e59338ca19f3f3f9b4dbd
+SHA256: 8bb51f5327f6bb85b08785f571021329dd2ba7bd79f3ac0bba18e43c1ca4f4a4
+SHA512: 14619101a417cfe5f614c749b03a854fbd124b1f56e4f8be9e4ba91906e3e1c243cd60256d8619c4b98efbfd2b92a5d28dbfa357dd9dcfe7223561ca2245f2ec
+Description: debug symbols for libsion-mpich-dev
+Auto-Built-Package: debug-symbols
+Build-Ids: 31f71a72f86881e889a8293d133fc661df16ed66 674583cf0dfc0d2602222f037b47f33444758aab be618cc729405ec0c11d7923ae32125523cd5717 c37b00b65d42d5f0c6394e58f132822be0ea3689 f1b650c397e72cb62c76173e4fc003477b9b545f
+
+Package: libsion-openmpi-dev
+Priority: optional
+Section: libs
+Installed-Size: 1100
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: sionlib
+Version: 1.7.7-1.pdidev.23764013
+Provides: libsion-dev
+Depends: libc6 (>= 2.34), libsion-headers (= 1.7.7-1.pdidev.23764013), openmpi-bin, libopenmpi-dev
+Filename: pool/main/s/sionlib/libsion-openmpi-dev_1.7.7-1.pdidev.23764013_amd64.deb
+Size: 109960
+MD5sum: d8c970ae69539c97a3904f09d02e2bd7
+SHA1: f854741cf85f3173502b0c838632b666f8e9d5cd
+SHA256: ef9729c7e16b00907697ac3bb676bbd4c8f0223fc3798a8b1c5e618b73bcc859
+SHA512: b3f834a226f8d7ceaf3634400bef9dfd6350abf26f635d96e1af1df3a8c88e191196a9049d24e4d839e3299ca0b3ab0ef3dec956e51a56881a9bb9dfef504f16
+Description: a parallel input output library, OpenMPI version
+ SIONlib is a library for writing and reading binary data to/from several
+ thousands of processors into one or a small number of physical files. For
+ parallel access to files only the open and close functions are collective while
+ writing and reading file can be done asynchronously. SIONlib provides a SIONlib
+ file handle which substitutes the C file pointer.
+Homepage: https://www.fz-juelich.de/ias/jsc/EN/Expertise/Support/Software/SIONlib/_node.html
+
+Package: libsion-openmpi-dev-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 312
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: sionlib
+Version: 1.7.7-1.pdidev.23764013
+Depends: libsion-openmpi-dev (= 1.7.7-1.pdidev.23764013)
+Filename: pool/main/s/sionlib/libsion-openmpi-dev-dbgsym_1.7.7-1.pdidev.23764013_amd64.deb
+Size: 209572
+MD5sum: 2c33658e70c1e730ae4d720e62c66f67
+SHA1: 7be56e09f1ea4b7b53f2a0701041013efae98eea
+SHA256: ef48310c5db81a2c001a59dac813d0985040c858012d3b911b492bf218739fbc
+SHA512: 487a3cf6b69664a0a596a38374d90fbbe85bdc954d62e54b23e7425b2eb0bf5c580615392471b7dfef1b3906d44d90f6df2057778ed01b1418397e5dd5480aab
+Description: debug symbols for libsion-openmpi-dev
+Auto-Built-Package: debug-symbols
+Build-Ids: 53f9250663a928060ea9ed1be330f5c09b74dc92 5fe1c2e01c752817ff182c6d039eff025ffc8bee 679699219d1b5eaf2ae620503930a8ceded02a89 ab898ad448f5d422b5d29dfd750a1e8e2cd7aa46 b25d92aea8c2e790c9b66957555d347da19c9dc8
+
+Package: libsion-serial-dev
+Priority: optional
+Section: libs
+Installed-Size: 1018
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: sionlib
+Version: 1.7.7-1.pdidev.23764013
+Provides: libsion-dev
+Depends: libc6 (>= 2.34), libsion-headers (= 1.7.7-1.pdidev.23764013)
+Filename: pool/main/s/sionlib/libsion-serial-dev_1.7.7-1.pdidev.23764013_amd64.deb
+Size: 99640
+MD5sum: 301b0223c5d0a57a49d3b937d8e7ee35
+SHA1: 9e303b2a72ed0e8d927079500acc33c4f7f02149
+SHA256: ffba176badaa3ea78d4dc7e78db5fbc12c31be08e322548b67d5e494f678cddf
+SHA512: e331f5ba4f9ffe2a1ebb5ee633a222a26abcb972ae4f62f1d246c8d0a8d13cd0e03c01bccc1e520f42f7fe4a6754584596cdc5b85bcb4483a94188d36b3a8de9
+Description: a parallel input output library, OpenMPI version
+ SIONlib is a library for writing and reading binary data to/from several
+ thousands of processors into one or a small number of physical files. For
+ parallel access to files only the open and close functions are collective while
+ writing and reading file can be done asynchronously. SIONlib provides a SIONlib
+ file handle which substitutes the C file pointer.
+Homepage: https://www.fz-juelich.de/ias/jsc/EN/Expertise/Support/Software/SIONlib/_node.html
+
+Package: libsion-serial-dev-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 312
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: sionlib
+Version: 1.7.7-1.pdidev.23764013
+Depends: libsion-serial-dev (= 1.7.7-1.pdidev.23764013)
+Filename: pool/main/s/sionlib/libsion-serial-dev-dbgsym_1.7.7-1.pdidev.23764013_amd64.deb
+Size: 208692
+MD5sum: 85e643e12cf6d19fddee6920d71c94c7
+SHA1: 024009a3d59746737632ad44bf2c9a3349d9e172
+SHA256: c7b6a02fa9470f92a63b14e85cc62ce20b4d50a566b3cb408ac7b10b5e9ce10f
+SHA512: 3f601faa79e96475fa99be27d1201d9486170b1809daf0531c80da65afb234ee17ae1c6ecb90d1970ac9280cc9abe7cf7f09d3decbe9b8bfe3dbe8978d880333
+Description: debug symbols for libsion-serial-dev
+Auto-Built-Package: debug-symbols
+Build-Ids: 0871cf46cc476840135fcddc3338e4a155d68599 5994e648556cb163b8f546fd1e900a92af51f364 6085db61891904f3ea804bbb12f4512bd372be7d 79c3cac255a92ad98cc64af44326943e734c87fd bdf89629b7b7245cc11c9b21779a352d221e3ca4
+
+Package: pdidev-archive-keyring
+Priority: extra
+Section: misc
+Installed-Size: 14
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: all
+Version: 2021.01.02.pdidev.57886815
+Depends: gpgv
+Recommends: gnupg
+Filename: pool/main/p/pdidev-archive-keyring/pdidev-archive-keyring_2021.01.02.pdidev.57886815_all.deb
+Size: 3384
+MD5sum: 20a76c90ed67240ddeab7ec75828125e
+SHA1: 604274a5ca25707f6ef0a543d4c2d597ed5b20a4
+SHA256: f50455f16546bcb1e5334790048bcbd44a267041580b9bcedf6193ffdfe0cc36
+SHA512: d80c309bd7ba60562c6973dae9f684fed03dc68d29bfdeceb02bc9df70f63d1ceb4323b3aabcb37a5aa93ae9e95adeab7a1890e001c1d9c1d4456141eb02e1fe
+Description: GnuPG archive key of the pdidev repository
+ The pdidev repository digitally signs its Release files. This package contains
+ the repository key used for that.
+
+Package: pdiplugin-all
+Priority: optional
+Section: all
+Installed-Size: 8
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: pdiplugin-decl-hdf5, pdiplugin-decl-netcdf, pdiplugin-decl-sion, pdiplugin-flowvr, pdiplugin-fti, pdiplugin-mpi, pdiplugin-pycall, pdiplugin-serialize, pdiplugin-set-value, pdiplugin-trace, pdiplugin-user-code
+Filename: pool/main/p/pdi/pdiplugin-all_1.5.5-1.pdidev.971_amd64.deb
+Size: 2880
+MD5sum: 3b65e1ca76b2b68b8e9abd92631eb246
+SHA1: d3f545966c2b7cd8adfd563bedd9451f5fc9b103
+SHA256: eeb81bdb5dfa2cf55253107419d4730332c32f3979ab2bac1c68f6d34cee38f2
+SHA512: b3d9d442ac2b9b223daa7c02ccade91671b6b833c9cd07a102c10c7c797110b56eaaab8891375316b177784b5237d939f5f6acbf27396c0247c21d8bdbb09cc3
+Description: PDI plugins, full set
+ This is a metapackage depending on all available PDI plug-ins to make
+ installation easier.
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-decl-hdf5-mpich
+Priority: optional
+Section: libs
+Installed-Size: 370
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-hdf5
+Version: 1.5.5-1.pdidev.2611
+Provides: pdiplugin-decl-hdf5
+Depends: dpkg-dev, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libhdf5-mpich-103-1 (>= 1.8.14), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-decl-hdf5/pdiplugin-decl-hdf5-mpich_1.5.5-1.pdidev.2611_amd64.deb
+Size: 117292
+MD5sum: 929c5ebf309f9b4d8bc2303a04f53a57
+SHA1: e3bb2e94dc0dd36a3f26e1a82efdcb5db0f799a0
+SHA256: 3c4a47ddb637f1645e93934070731f9a6005b3d636229b561f305aeb375b928a
+SHA512: ffc5b70c1e68b1456a5a7b61486365337cd3602c62e51df4bbff1937b561fcf44e35e89152d5c81f675fcd78f1c9af58017ce5c7e01de2c5d0612803610dc9f9
+Description: Decl'HDF5 plugin for the PDI Data Interface
+ The Decl'HDF5 PDI plugin enables one to read and write data from HDF5 files in
+ a declarative way. Decl'HDF5 does not support the full HDF5 feature set but
+ offers a simple declarative interface to access a large subset of it.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-decl-hdf5-mpich-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 2433
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-hdf5
+Version: 1.5.5-1.pdidev.2611
+Depends: pdiplugin-decl-hdf5-mpich (= 1.5.5-1.pdidev.2611)
+Filename: pool/main/p/pdiplugin-decl-hdf5/pdiplugin-decl-hdf5-mpich-dbgsym_1.5.5-1.pdidev.2611_amd64.deb
+Size: 2407348
+MD5sum: 0b5a07578316a9c0829c6efa67292828
+SHA1: 8059d664aca493b4b4b1116b69f5c97c5ee8f7a1
+SHA256: 25468187a686136f0cf5a42df1a0ce5c6f2465853d71e74748a516d53b044b2e
+SHA512: ac5b1b4b7ad46eab5a54ed692b554a5405ff56c3367e570469053171af9986c1f064d46e8102315f0fcddda3bd7bd96be8fe93174874686c72f033206cf1e8a8
+Description: debug symbols for pdiplugin-decl-hdf5-mpich
+Auto-Built-Package: debug-symbols
+Build-Ids: cca0eb0259a3e7ab170c21e6dbdc3091932742f8
+
+Package: pdiplugin-decl-hdf5-openmpi
+Priority: optional
+Section: libs
+Installed-Size: 370
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-hdf5
+Version: 1.5.5-1.pdidev.2611
+Provides: pdiplugin-decl-hdf5
+Depends: dpkg-dev, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libhdf5-openmpi-103-1 (>= 1.8.14), libopenmpi3 (>= 4.1.4), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-decl-hdf5/pdiplugin-decl-hdf5-openmpi_1.5.5-1.pdidev.2611_amd64.deb
+Size: 117296
+MD5sum: 77ad8b901ea6d856319e1fd3ee7859e4
+SHA1: d0b82060f8aef3af2e4849b18b2bf9b4e79f0f98
+SHA256: 245e70057544d2df07f3f60a84fd3528532d90b31e56c644fa7a32ae106576d9
+SHA512: 28b6667c52682c44cb5af85cd747a14168d54777c30495f52d6f160bea6e7e486183affd27937e1f7cd09ba1df6ee2eb8d9a2d8ebc3ec791927295bd3edbfc62
+Description: Decl'HDF5 plugin for the PDI Data Interface
+ The Decl'HDF5 PDI plugin enables one to read and write data from HDF5 files in
+ a declarative way. Decl'HDF5 does not support the full HDF5 feature set but
+ offers a simple declarative interface to access a large subset of it.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-decl-hdf5-openmpi-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 2433
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-hdf5
+Version: 1.5.5-1.pdidev.2611
+Depends: pdiplugin-decl-hdf5-openmpi (= 1.5.5-1.pdidev.2611)
+Filename: pool/main/p/pdiplugin-decl-hdf5/pdiplugin-decl-hdf5-openmpi-dbgsym_1.5.5-1.pdidev.2611_amd64.deb
+Size: 2407616
+MD5sum: bd67780ac44b4583a00cc780325fb5c2
+SHA1: 2d6bf463e2744e1c3e5ebfe4ba38bf115551aa50
+SHA256: b6fa90ac9d5b7b59529319b8c507ac7635a7d653e899b40c6d6c5c811ed170b9
+SHA512: 4fdd90f25f7935076790e1ef29b5f3b08fa5b358951930d2ebea9eb92044cd4224438f1a22bf47096d80bd01277bce815aa524c736363df6cd5007be6347adcb
+Description: debug symbols for pdiplugin-decl-hdf5-openmpi
+Auto-Built-Package: debug-symbols
+Build-Ids: f0251242a83641fc2c8a0ffec4464fddef56c550
+
+Package: pdiplugin-decl-hdf5-serial
+Priority: optional
+Section: libs
+Installed-Size: 370
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-hdf5
+Version: 1.5.5-1.pdidev.2611
+Provides: pdiplugin-decl-hdf5
+Depends: dpkg-dev, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libhdf5-103-1, libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-decl-hdf5/pdiplugin-decl-hdf5-serial_1.5.5-1.pdidev.2611_amd64.deb
+Size: 117988
+MD5sum: 7ced8c1f6d54af4078907cc955c7f55b
+SHA1: 888b56b8c6e6ba48458ccdfeada2de8e3ae44df0
+SHA256: c38f4842d9aba2d2bae0cd080fb43df608d7100c89ca230890a5b28a86b98518
+SHA512: 1b86ca6dcc3667abd0794547d0462a79bad18c4358ce186f13d5cb606b5b479140e11b2e9157843251819b0cdda69718e6323506e1b4e921b89d8ee3c93ff81c
+Description: Decl'HDF5 plugin for the PDI Data Interface
+ The Decl'HDF5 PDI plugin enables one to read and write data from HDF5 files in
+ a declarative way. Decl'HDF5 does not support the full HDF5 feature set but
+ offers a simple declarative interface to access a large subset of it.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-decl-hdf5-serial-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 2430
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-hdf5
+Version: 1.5.5-1.pdidev.2611
+Depends: pdiplugin-decl-hdf5-serial (= 1.5.5-1.pdidev.2611)
+Filename: pool/main/p/pdiplugin-decl-hdf5/pdiplugin-decl-hdf5-serial-dbgsym_1.5.5-1.pdidev.2611_amd64.deb
+Size: 2403996
+MD5sum: 184e2250c2a741f455b9787796f0fa02
+SHA1: 1e03447c009a59ef90dcfc7e30d7525dc8aea01d
+SHA256: c6b7bc150f9bfb9149e5f1caa34cd946e5309f9ef93d0e82c002d985ba5042e7
+SHA512: 6e870c4087eaa236b12084acec261aa0ed6143df1051a57a44a400219b15f5f44fee9deb0c6aff7e628c3d9d7e830a0105e19fa1c10d39b2c350450f6d8e32bc
+Description: debug symbols for pdiplugin-decl-hdf5-serial
+Auto-Built-Package: debug-symbols
+Build-Ids: 9cae59cdcb526e67c5f66acea4c2087d4e316a97
+
+Package: pdiplugin-decl-netcdf-serial
+Priority: optional
+Section: libs
+Installed-Size: 310
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-netcdf
+Version: 1.5.5-1.pdidev.2648
+Provides: pdiplugin-decl-netcdf
+Depends: dpkg-dev, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libnetcdf19 (>= 4.6.0), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-decl-netcdf/pdiplugin-decl-netcdf-serial_1.5.5-1.pdidev.2648_amd64.deb
+Size: 103276
+MD5sum: 7eca97625a7f70c6ce5631dd83d5646a
+SHA1: 4deb6d7a50990798c6d978c4a86a6e4421fb58c9
+SHA256: da1085572b0dae878b1e281e925ef8d413908f7e7b572cbc366934e4d58bbdb4
+SHA512: f21acbef8f59378375885dedf8a8293dca4c74b52836f8f2a349c75151aceebed5f5f6059dd72c661da3fe0ebfc846d54b9d6f1a27a740b034c68fea593349e1
+Description: Decl'NetCDF plugin for the PDI Data Interface
+ The Decl'NetCDF PDI plugin enables one to read and write data from NetCDF files in
+ a declarative way. Decl'NetCDF does not support the full NetCDF feature set but
+ offers a simple declarative interface to access a large subset of it.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-decl-netcdf-serial-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 2203
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-netcdf
+Version: 1.5.5-1.pdidev.2648
+Depends: pdiplugin-decl-netcdf-serial (= 1.5.5-1.pdidev.2648)
+Filename: pool/main/p/pdiplugin-decl-netcdf/pdiplugin-decl-netcdf-serial-dbgsym_1.5.5-1.pdidev.2648_amd64.deb
+Size: 2189876
+MD5sum: 1357dbfa2ce573f2988f9025558bceb8
+SHA1: 278ebe79ca3b503154d185b4cdcc3de8ec7b337e
+SHA256: 84df9eab5988f0fd143afbff4f5e619edecf74805bf9149418afb1bd5731e510
+SHA512: e0f9a8b99f8708bb3f648d3c3ccb5face8578d48cb29b8aef2558b09ef908d5ee9aad91bc54a065bdc5248de08ca4dab6f86a96dfe7f52b930f3e307eace1b74
+Description: debug symbols for pdiplugin-decl-netcdf-serial
+Auto-Built-Package: debug-symbols
+Build-Ids: 540ee01fbbee90b416df4dd8eb48ebc4490ed5a6
+
+Package: pdiplugin-decl-sion-mpich
+Priority: optional
+Section: libs
+Installed-Size: 350
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-sion
+Version: 1.5.5-1.pdidev.2803
+Provides: pdiplugin-decl-sion
+Depends: dpkg-dev, libc6 (>= 2.33), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libmpich12 (>= 4.0.2-2), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-decl-sion/pdiplugin-decl-sion-mpich_1.5.5-1.pdidev.2803_amd64.deb
+Size: 87144
+MD5sum: 5db31cfa777256503e8072d8beb6e479
+SHA1: 7af1b2156379e10d381c8f7dd5fefe1c3cb730ec
+SHA256: 6a80c72ddb12cd18a3ed42898a250aba54f20d630e2dd885f3d1412e539aaf76
+SHA512: f0dd05cdd65d54693753a6cfaf0f38d2f6618963a853bdb9ece661167bcef6597022d4fc3436744069de2f186f1407e049bd1924e16e68567f6e3004c717cb7f
+Description: Decl'SION plugin for the PDI Data Interface
+ The PDI decl-sion plugin interfaces PDI with SIONlib.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-decl-sion-mpich-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 488
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-sion
+Version: 1.5.5-1.pdidev.2803
+Depends: pdiplugin-decl-sion-mpich (= 1.5.5-1.pdidev.2803)
+Filename: pool/main/p/pdiplugin-decl-sion/pdiplugin-decl-sion-mpich-dbgsym_1.5.5-1.pdidev.2803_amd64.deb
+Size: 454696
+MD5sum: 42d81423ae193b75e9d854cb98a8c610
+SHA1: e24c375a9b10ab075baa6d534f3fe671feebb5cd
+SHA256: 5d955b044deafeca10d740d6a38fe10f3b3ede55dc502c7cd4c17bc1888c53eb
+SHA512: d16dc1a9c7a9ebc5271b2623005644b5f038dbb1e5baf107ed143be5e14d63890a03dbe53020fad3ee6d3e7fa7c265c44e9bbd367ccfa52dadedfc8a9038cdd1
+Description: debug symbols for pdiplugin-decl-sion-mpich
+Auto-Built-Package: debug-symbols
+Build-Ids: 2964b44464d10ff62242f5a7eb635aec24fe1138
+
+Package: pdiplugin-decl-sion-openmpi
+Priority: optional
+Section: libs
+Installed-Size: 398
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-sion
+Version: 1.5.5-1.pdidev.2803
+Provides: pdiplugin-decl-sion
+Depends: dpkg-dev, libc6 (>= 2.33), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libopenmpi3 (>= 4.1.4), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-decl-sion/pdiplugin-decl-sion-openmpi_1.5.5-1.pdidev.2803_amd64.deb
+Size: 96732
+MD5sum: 5860603abb565fc10c1d61e50fcd2b66
+SHA1: a817ca5a321125b15bc50fd8cfea7e145a63f3c2
+SHA256: 119500d0c710f61d691834729a25414e9c709b31cf6873bc2328251e783f2406
+SHA512: 052527d03500b0cc483b4c102bfb3c694d84b5ee6e672d2c6c4d249ba2c6f63a57b12f499b1d4fe88c5def610dcb8b9be23d717a0ff789718bff07357ee004e2
+Description: Decl'SION plugin for the PDI Data Interface
+ The PDI decl-sion plugin interfaces PDI with SIONlib.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-decl-sion-openmpi-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 553
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-decl-sion
+Version: 1.5.5-1.pdidev.2803
+Depends: pdiplugin-decl-sion-openmpi (= 1.5.5-1.pdidev.2803)
+Filename: pool/main/p/pdiplugin-decl-sion/pdiplugin-decl-sion-openmpi-dbgsym_1.5.5-1.pdidev.2803_amd64.deb
+Size: 505096
+MD5sum: 19b13aa54af97abc2d094a4dc8ac99bd
+SHA1: eba2d5d586bd9ef43c66b540c5d4c158c0112e3f
+SHA256: b22cddd6d6a3a7867e361d716d8a1bce08d8b16068e978ad39b4080190b5661c
+SHA512: e8ac33c2ecd345c825f4ff45c207a1e8bd395543af6e1d014e7c28de1e0b96c097e691af019eccb2b4c58795f07996762643b3d476331189ef06f32b377d3a85
+Description: debug symbols for pdiplugin-decl-sion-openmpi
+Auto-Built-Package: debug-symbols
+Build-Ids: 549abe76d74caf7c91f3df2bd6498049acd23b55
+
+Package: pdiplugin-flowvr
+Priority: optional
+Section: libs
+Installed-Size: 838
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Version: 1.5.5-1.pdidev.1574
+Depends: flowvr, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-flowvr/pdiplugin-flowvr_1.5.5-1.pdidev.1574_amd64.deb
+Size: 163764
+MD5sum: 81c5cb1350e587d84bee78223dc4f76e
+SHA1: 35840d88d2cca880a38cab69e8bb4a658d3eed42
+SHA256: 86b852d88fdd859e8722be1f6893bcf29b96e5335176be7a1146b4265b447192
+SHA512: 8ae508dd14f1070c37be8b8ef839a522c0b1b7e5422dbb0087c78fc648c25ad22eab1c7b7555c1a324af6615049c5a9f98163d5eab01dac635392a6e62d7e6ce
+Description: FlowVR plugin for the PDI Data Interface
+  The PDI FlowVR plugin supports application coupling through the FlowVR software.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-flowvr-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 12283
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-flowvr
+Version: 1.5.5-1.pdidev.1574
+Depends: pdiplugin-flowvr (= 1.5.5-1.pdidev.1574)
+Filename: pool/main/p/pdiplugin-flowvr/pdiplugin-flowvr-dbgsym_1.5.5-1.pdidev.1574_amd64.deb
+Size: 12292788
+MD5sum: 43edeacbad4f84a149c891dd8e031a42
+SHA1: b006cbdf0e34f8d02b592e73f13a2035068b0fc8
+SHA256: a74e43cdeff0355e665f011198e6636b57e8c0163657dbcfa6dff8305a06c032
+SHA512: d076f783cb7bc60dc473eb8f8f9088b4d57a77404907e1fac5b30a04eef9cc315bde3286af84e57d754732afc6ba1ef1d10d3600ce38678b56c7e633bb51f224
+Description: debug symbols for pdiplugin-flowvr
+Auto-Built-Package: debug-symbols
+Build-Ids: a6f2a6dbcae99dcfa2a6aabf73dcee5239236d03
+
+Package: pdiplugin-fti-mpich
+Priority: optional
+Section: libs
+Installed-Size: 270
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-fti
+Version: 1.5.5-1.pdidev.2682
+Provides: pdiplugin-fti
+Depends: dpkg-dev, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libmpich12 (>= 4.0.2-2), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-fti/pdiplugin-fti-mpich_1.5.5-1.pdidev.2682_amd64.deb
+Size: 89268
+MD5sum: 11ff67fb19dd78fb954ec47cdaa3e4a6
+SHA1: 5ac456baef1a1e2b110284db2ef2f2d312ca5a99
+SHA256: c4bbb1b20f87fa5dccfcbefe86e5c179dd28b97b4193bd175d0ecad79e04d98b
+SHA512: 66287450f742fe63571574c278e22c67d313b224e3755dafff1a8413748c9e080cb1278cc9cb22fcc1a7619c022dcc000c815f66c91d0313d55178b60ef18eb8
+Description: FTI plugin for the PDI Data Interface
+ The PDI fti plugin interfaces PDI with FTI.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-fti-mpich-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 1689
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-fti
+Version: 1.5.5-1.pdidev.2682
+Depends: pdiplugin-fti-mpich (= 1.5.5-1.pdidev.2682)
+Filename: pool/main/p/pdiplugin-fti/pdiplugin-fti-mpich-dbgsym_1.5.5-1.pdidev.2682_amd64.deb
+Size: 1661800
+MD5sum: a7f53350afd0062de83b0d410f567066
+SHA1: d55e141d4c29616ea3c9eb9844e29734ef54ce2c
+SHA256: 0141a562ebe0316a5139d7b2050cd496708524c311d123342c64dd9268430d6a
+SHA512: 4719371337a770026ed5fd1be7c75975dc93298ee04034c29cfbc57433f50173f7e2881c791c06b3267f44e7b5add701c2392303a25d16a2734c306c8dc4f7d4
+Description: debug symbols for pdiplugin-fti-mpich
+Auto-Built-Package: debug-symbols
+Build-Ids: dd335ab9e24981a3857aeacd47d1e0f1d0bb54dd
+
+Package: pdiplugin-fti-openmpi
+Priority: optional
+Section: libs
+Installed-Size: 326
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-fti
+Version: 1.5.5-1.pdidev.2682
+Provides: pdiplugin-fti
+Depends: dpkg-dev, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libopenmpi3 (>= 4.1.4), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-fti/pdiplugin-fti-openmpi_1.5.5-1.pdidev.2682_amd64.deb
+Size: 100196
+MD5sum: d4400797b2ab4c9fa5950413f0da8bdf
+SHA1: 63de6ccbb345b267d27836fc54c94b34db212bcf
+SHA256: 368089a4e32ba80d1a47075a75dafddb4a156fadb67a1d6f52f70197918f0c68
+SHA512: 456e6ce40de6b2e6745bad15980821f4afc1e255c32deb7b39463e170e34f37840f98aa51510bd0d1fc43d4d4d90e1363515374d2cc8ed8aba46206148abc996
+Description: FTI plugin for the PDI Data Interface
+ The PDI fti plugin interfaces PDI with FTI.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-fti-openmpi-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 1818
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-fti
+Version: 1.5.5-1.pdidev.2682
+Depends: pdiplugin-fti-openmpi (= 1.5.5-1.pdidev.2682)
+Filename: pool/main/p/pdiplugin-fti/pdiplugin-fti-openmpi-dbgsym_1.5.5-1.pdidev.2682_amd64.deb
+Size: 1778208
+MD5sum: f8a01bcfd20d9e21cf8a5a9dc0d781a3
+SHA1: c7df9c720bdd89c53b230207ef9cf2310e708c58
+SHA256: 2029373fe329319a8e3f980a426f6a0c79caf2159cffb628fa3aed334378a65f
+SHA512: b563aa9156d964c744b66a2f69f2695ec16ddcb8d3d78939e5288dff2771cfe348cbc2b3acd44c48e80a68bdce9a9c60877b8bed72c618d0c866c8fb74f94b13
+Description: debug symbols for pdiplugin-fti-openmpi
+Auto-Built-Package: debug-symbols
+Build-Ids: 5cdf1d57b6e33b55f754317d324dc6233be34c68
+
+Package: pdiplugin-mpi-mpich
+Priority: optional
+Section: libs
+Installed-Size: 170
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-mpi
+Version: 1.5.5-1.pdidev.1693
+Provides: pdiplugin-mpi
+Depends: dpkg-dev, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libmpich12 (>= 4.0.2-2), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Recommends: mpich
+Filename: pool/main/p/pdiplugin-mpi/pdiplugin-mpi-mpich_1.5.5-1.pdidev.1693_amd64.deb
+Size: 61772
+MD5sum: d61e165848ba13feed066b2366af1e38
+SHA1: 690861601747c8e428dc46958d9044444a019419
+SHA256: 0b6db0f65078b298aad2490a31ee381695a972c09cf0b356e9180fc7e7a32b0a
+SHA512: 27b54d40ac0670251bc207947b6c97130f5768dd18fa907ba10d619a225c91a72a32754064d884a21aa0a0cbb8f5f4fefbb4268fa6890604008703d1341ff0be
+Description: MPI plugin for the PDI Data Interface
+ The PDI mpi plugin interfaces PDI with MPI.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-mpi-mpich-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 675
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-mpi
+Version: 1.5.5-1.pdidev.1693
+Depends: pdiplugin-mpi-mpich (= 1.5.5-1.pdidev.1693)
+Filename: pool/main/p/pdiplugin-mpi/pdiplugin-mpi-mpich-dbgsym_1.5.5-1.pdidev.1693_amd64.deb
+Size: 649928
+MD5sum: afc9f88d952d915e089f7ebb8608773d
+SHA1: 99c64f5ef19d17618e3baa35b91f51ba4b6796cc
+SHA256: 4f759af75408ba3a4231787ad971dce5f6ec725deb0fbf48ed8dcd7a1f80dc5a
+SHA512: 93b9909b223354b53c6e70aa00cce51c889940b9815b0d2817056b3583d22aba6ee674efec661f5c15ce651553dbe6ce39d0619993eb15307ac768382064c9e6
+Description: debug symbols for pdiplugin-mpi-mpich
+Auto-Built-Package: debug-symbols
+Build-Ids: bf7f7e7a9cf78601f22cc175e11399e3424c73a2
+
+Package: pdiplugin-mpi-openmpi
+Priority: optional
+Section: libs
+Installed-Size: 226
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-mpi
+Version: 1.5.5-1.pdidev.1693
+Provides: pdiplugin-mpi
+Depends: dpkg-dev, libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libopenmpi3 (>= 4.1.4), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Recommends: openmpi-bin
+Filename: pool/main/p/pdiplugin-mpi/pdiplugin-mpi-openmpi_1.5.5-1.pdidev.1693_amd64.deb
+Size: 72548
+MD5sum: abab92d747219101c24ad522abc0d881
+SHA1: 4ce881e2c72357a5eab084e4b71b21fe89c6e47d
+SHA256: 85f0e6d5e4c422caa7b30f2f09e7561bf38e09a16878ae95cecf5297916b0f54
+SHA512: 7fb9864e74a3fec699c5b44ae165647625cac38c5730c892637dea9c437b00f8cd1c30c9355780b32621d27c9a3b5d65b64fac9fa86b5b1157a7cbd46ef20207
+Description: MPI plugin for the PDI Data Interface
+ The PDI mpi plugin interfaces PDI with MPI.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-mpi-openmpi-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 763
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-mpi
+Version: 1.5.5-1.pdidev.1693
+Depends: pdiplugin-mpi-openmpi (= 1.5.5-1.pdidev.1693)
+Filename: pool/main/p/pdiplugin-mpi/pdiplugin-mpi-openmpi-dbgsym_1.5.5-1.pdidev.1693_amd64.deb
+Size: 722772
+MD5sum: 131593a82bcddc37428004782afe9358
+SHA1: 9c9fbf373ed7e8ddcb1c1cb4715b796135d3fded
+SHA256: 80c6b83ad7e43fc49a25108782ffdff5c3b43bad7a26c24e0fb407bc181319c3
+SHA512: 45c6a6922e809f650f80e4834a9bc7e54c6dc2b500dcce3500925b41c6652b76a8204e60fe433545c33c59319f9632a072e12d378b0614f5e686e244edd6efc6
+Description: debug symbols for pdiplugin-mpi-openmpi
+Auto-Built-Package: debug-symbols
+Build-Ids: 0b80e719e16ee35511786077fcb27a0e3a3a3d17
+
+Package: pdiplugin-pycall
+Priority: optional
+Section: libs
+Installed-Size: 247
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Version: 1.5.5-1.pdidev.1839
+Depends: libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libparaconf0, libpdi-pysupport1, libpdi1, libpython3.10 (>= 3.10.0), libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-pycall/pdiplugin-pycall_1.5.5-1.pdidev.1839_amd64.deb
+Size: 95804
+MD5sum: 8f767185a5e677ab74ce17d56689c840
+SHA1: 0728f8515d25c7a78b5b9785ae502cf5ad3c10a8
+SHA256: eb163054612697cfe56c146db5cd335c480568a18174db917c09dbdb233567bc
+SHA512: c71108e8e9eb32f39df126894d7c2ff8422f6777a392868f036cd9159a8a7c1e954bb7376dd2c8b5de9afcb296139e910450e01d8bbd27dcddbd4931bfc044fd
+Description: Pycall plugin for the PDI Data Interface
+  The PDI pycall plugin enables one to call a user-defined python function when
+  a specified event occur or certain data becomes available.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-pycall-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 1305
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-pycall
+Version: 1.5.5-1.pdidev.1839
+Depends: pdiplugin-pycall (= 1.5.5-1.pdidev.1839)
+Filename: pool/main/p/pdiplugin-pycall/pdiplugin-pycall-dbgsym_1.5.5-1.pdidev.1839_amd64.deb
+Size: 1284532
+MD5sum: 9ae1e8bee1662768b7ebf953af4fccb6
+SHA1: 3a67bb8921bf8f402890534ae0f25db315b5e93f
+SHA256: 8f347c75912d6f044ab4941641d7dc55b9330a68dddaba45059665cccebc5e48
+SHA512: 8ae66fcad0145405db95cb2edf9c7e337e6c179d066263832eb7c5bf9d3d693ea80fdd75fa07bd16fb68fdcc21cd662855db2237f73857f5ca3e1d94dd2d6958
+Description: debug symbols for pdiplugin-pycall
+Auto-Built-Package: debug-symbols
+Build-Ids: 69f72070ad64f7f6ba9249a278693eb55415a1ae
+
+Package: pdiplugin-serialize
+Priority: optional
+Section: libs
+Installed-Size: 187
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Version: 1.5.5-1.pdidev.1701
+Depends: libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-serialize/pdiplugin-serialize_1.5.5-1.pdidev.1701_amd64.deb
+Size: 67388
+MD5sum: dc5c296dfe483d3554f2410203aad8dd
+SHA1: ba00990574aab477dafba5c492de52da00350db4
+SHA256: 8118a28cdcda9c5359a4e72ef226024d80dcf6c1ee37b0d3716710d4f4dd89f9
+SHA512: 7f6ed49a973342c8744cb34a0b59fec192f52b2c5dd11c03bf65c98fc1ab845fb7683b90591647e43a49174f61bd8980e1e50f4beeeddfc1803ff7dc0518ce16
+Description: Serialize plugin for the PDI Data Interface
+ The PDI serialize plugin supports serialization of complex types into a
+ representation all I/O libraries should support.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-serialize-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 792
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-serialize
+Version: 1.5.5-1.pdidev.1701
+Depends: pdiplugin-serialize (= 1.5.5-1.pdidev.1701)
+Filename: pool/main/p/pdiplugin-serialize/pdiplugin-serialize-dbgsym_1.5.5-1.pdidev.1701_amd64.deb
+Size: 766548
+MD5sum: 9be942eba418caa3cb7e9f457663dcdd
+SHA1: 9bb2ad3f0e27e49871479edcc3790d6a465a0905
+SHA256: 513fdcb65940d663492535dd1aa4503b2e895ff5587b809746f88790bd41160c
+SHA512: 93b282619109a4c0e165985096d26a3277525c404a369642908c4309eecb89556ffdf7dbebad2e9dcfeca8fd57a76b0b1ec5c403215c459951c4a925ef7d2666
+Description: debug symbols for pdiplugin-serialize
+Auto-Built-Package: debug-symbols
+Build-Ids: 91e06a35fe7514c54fed164b6815e5bf4e9b9b6a
+
+Package: pdiplugin-set-value
+Priority: optional
+Section: libs
+Installed-Size: 263
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Version: 1.5.5-1.pdidev.1409
+Depends: libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-set-value/pdiplugin-set-value_1.5.5-1.pdidev.1409_amd64.deb
+Size: 73584
+MD5sum: 069c7aa6b2090257b591df5de1312b1b
+SHA1: a2c90f56cd5d2dc2c915cd54968aef089323d456
+SHA256: c09901433237204f323151231c888e8cb7e59c66fd1db18ffb9f412fb7b7e805
+SHA512: 2128a74d2cc54d86a3c4d7401d871eb7b5d655f2d473c61a2465912f1f78782ccce41c40f9f4b80f8f67f3b7c154f7a449d4bbb8cdb3228f54486f42b44b81dc
+Description: Set Value plugin for the PDI Data Interface
+ The PDI Set Value plugin supports setting PDI metadata values from PDI itself.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-set-value-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 2705
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-set-value
+Version: 1.5.5-1.pdidev.1409
+Depends: pdiplugin-set-value (= 1.5.5-1.pdidev.1409)
+Filename: pool/main/p/pdiplugin-set-value/pdiplugin-set-value-dbgsym_1.5.5-1.pdidev.1409_amd64.deb
+Size: 2720732
+MD5sum: 37a75b51c34667fa19bf2585aaff7beb
+SHA1: 36692bd99bcd2cb041a033954af04d18843beff8
+SHA256: a435fc0c3d19b5c1b14645479e50d5387a2e053e24e5d25a5d05bad793419920
+SHA512: dddc2851a5a17172e37a3c0d733c15c567ea52a162521aa72f78182f790b50733a5cfa61bc9577d816cdfbb9590c60ebd7e6d1a46b6e478a3e2ee7b3bea0701f
+Description: debug symbols for pdiplugin-set-value
+Auto-Built-Package: debug-symbols
+Build-Ids: ee40de9058e65f5ce354efe43b46c7d740d4dfed
+
+Package: pdiplugin-trace
+Priority: optional
+Section: libs
+Installed-Size: 131
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Version: 1.5.5-1.pdidev.1616
+Depends: libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-trace/pdiplugin-trace_1.5.5-1.pdidev.1616_amd64.deb
+Size: 49524
+MD5sum: 253fb46863733bc04d8977a0e0d16c3d
+SHA1: ac20a05a2e255b6edaf403eef0c3fe9c4482a3b4
+SHA256: a995c9277ab5b89f40349d5032588a09c4138e28080827cf37b01aa80f9a013b
+SHA512: f763a09ffd27d2b941e4f1ca965d49605ddcff92db11d8256d6c1ae821e0ca2035b0900d5b2a07f78d14258af004427b12acce9c08c76c04a0822c7a74f3ea4d
+Description: Trace plugin for the PDI Data Interface
+ The PDI trace plugin generates a trace of what happens in PDI data store.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-trace-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 516
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-trace
+Version: 1.5.5-1.pdidev.1616
+Depends: pdiplugin-trace (= 1.5.5-1.pdidev.1616)
+Filename: pool/main/p/pdiplugin-trace/pdiplugin-trace-dbgsym_1.5.5-1.pdidev.1616_amd64.deb
+Size: 499552
+MD5sum: f5739cc36c3cd728c53a37b23f62d1f9
+SHA1: 9f51f79ce6f3d82a9da82a871ed1c0c6d14c6e5c
+SHA256: 63d5614bb77377670daccb4d04d0ba1e6b1a379cbfb9519e3fdddf2555919437
+SHA512: a8c40c95b407dd37dbd1a4b0b6bdee7e4f612880066590ef8d05151d5ac52977d48a21e4bda4ebd7c182ee356a123b6e3bf0b5b7bc82a2df0cb8b35afc9d3134
+Description: debug symbols for pdiplugin-trace
+Auto-Built-Package: debug-symbols
+Build-Ids: 687e3857c1d05cfa474821fed03a9b958acee4d0
+
+Package: pdiplugin-user-code
+Priority: optional
+Section: libs
+Installed-Size: 143
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Version: 1.5.5-1.pdidev.1790
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libparaconf0, libpdi1, libspdlog1.10-fmt9, libstdc++6 (>= 11)
+Filename: pool/main/p/pdiplugin-user-code/pdiplugin-user-code_1.5.5-1.pdidev.1790_amd64.deb
+Size: 55080
+MD5sum: e456273b692814133c782372d4efd737
+SHA1: ce40e3a18e1cf79849f7ebe916a258c47b25536e
+SHA256: 86c566715161d5773ebd851bdc59223201fc38b3200f71cce65e68209bd50e5e
+SHA512: 79dcbf09235f91b7a2929876803541089bd0cc8f696890f0b196087dc0bb6178382805dcb0a090b1976ab8c24c016fb50ffd015e1a32f58e26fba883c412b5db
+Description: user-code plugin for the PDI Data Interface
+ The PDI user-code plugin enables one to call a user-defined function when a
+ specified event occur or certain data becomes available.
+Enhances: libpdi1
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-user-code-dbgsym
+Priority: optional
+Section: debug
+Installed-Size: 595
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdiplugin-user-code
+Version: 1.5.5-1.pdidev.1790
+Depends: pdiplugin-user-code (= 1.5.5-1.pdidev.1790)
+Filename: pool/main/p/pdiplugin-user-code/pdiplugin-user-code-dbgsym_1.5.5-1.pdidev.1790_amd64.deb
+Size: 573236
+MD5sum: f5de700d19403e43a7abe4166936bc94
+SHA1: 99d3d6dd583f6103885a92b1341d2f8fac5f0629
+SHA256: ca341f9121642949f3fbf91b2b5511038020896f1e995a92cd44cbc33efa927e
+SHA512: 8d6eaf6bbd98453171891d189ef03b5d8f86904f0cb4f170074c987b5cab3e301772b705581e3f532ad3afab50d570027220ddf535d56936179400eca70ef44f
+Description: debug symbols for pdiplugin-user-code
+Auto-Built-Package: debug-symbols
+Build-Ids: 57f86ae2067572a3a5cdd6224c6d789910193236
+
+Package: python3-pdi
+Priority: optional
+Section: libs
+Installed-Size: 229
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: amd64
+Source: pdi
+Version: 1.5.5-1.pdidev.971
+Depends: libc6 (>= 2.32), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libparaconf0, libpdi-pysupport1 (= 1.5.5-1.pdidev.971), libpdi1, libstdc++6 (>= 11)
+Filename: pool/main/p/pdi/python3-pdi_1.5.5-1.pdidev.971_amd64.deb
+Size: 81636
+MD5sum: 860e5e4e294ac74cb09a4596b8f03cdd
+SHA1: 0ac1b90a37952a647fb712b955fbec374241b73c
+SHA256: 2fae8bd7db7bce8db4dd7d56645d3cfed24f1be904675b0edc046195e25d5fc6
+SHA512: 9112ed38894e60b199de73e8cc2f3fb83fd3aace4ab80facd51e5bd302def0be8c605db2f405f690e078a5e18db6e003875138e5b6e2e586df1371cc35e342d2
+Description: the PDI Data Interface python module
+ PDI is a library that aims to decouple high-performance simulation
+ codes from Input/Output concerns.
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: zpp
+Priority: optional
+Section: unknown
+Installed-Size: 111
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Architecture: all
+Version: 1.0.16-1.pdidev.26257329
+Depends: python3-pkg-resources, python3:any (>= 3.0~)
+Filename: pool/main/z/zpp/zpp_1.0.16-1.pdidev.26257329_all.deb
+Size: 12312
+MD5sum: eacc3bf09e041c0aeccfff2481a0b1c6
+SHA1: 4a3a71efe281fc7ee4230b37f29862d46c9e6638
+SHA256: 84bd434c2d395ef389eefe5b347c420a77277049a503c5d31e1864746ae44db7
+SHA512: 4fdc41bee3c313b57ac8d009d4598be15d6eca1fd21012bec60a8285cc4536c4b0e54dc815fb23fabbe2281cabfd5a81d4de15219a23187d9cd57c22677acd7c
+Description: the Z Pre-Processor
+ Zpp transforms bash in a pre-processor for F90 source files. It offers a set of
+ functions specifically tailored to build clean Fortran90 interfaces by
+ generating code for all types, kinds, and array ranks supported by a given
+ compiler.
+Homepage: https://github.com/jbigot/zpp
+
