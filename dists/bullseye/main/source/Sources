@@ -1,0 +1,538 @@
+Package: flowvr
+Binary: flowvr
+Version: 2.3.2-1~bpo11.pdidev.5153632
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), dh-exec, dh-python, cmake (>= 3.0), doxygen, freeglut3-dev, graphviz, libglew-dev, libgraphviz-dev, libhwloc-dev, libopenmpi-dev, libxi-dev, libxml2-dev, libxmu-dev, libxslt1-dev, mesa-common-dev, python3-dev, swig
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/f/flowvr
+Files:
+ ee1ad34707e047d7cbf933394b6cc2fe 1940 flowvr_2.3.2-1~bpo11.pdidev.5153632.debian.tar.xz
+ 74f02554ac937d622d11700255467d83 1991 flowvr_2.3.2-1~bpo11.pdidev.5153632.dsc
+ 1bb5b8af11046735d2f9f27ab1fe0306 6257221 flowvr_2.3.2.orig.tar.bz2
+Homepage: http://flowvr.sourceforge.net/
+Checksums-Sha256:
+ 8ed99475fab84e8c7014b211811d1723679b2a713b33149ed9005aedca6e3920 1940 flowvr_2.3.2-1~bpo11.pdidev.5153632.debian.tar.xz
+ 53f1c28288aa5398f0914377b3871bbd795e699fd702962d9ead814a0ca611ce 1991 flowvr_2.3.2-1~bpo11.pdidev.5153632.dsc
+ 4543bd2a9e52f363c981a2aafacae4bf5ae7dd96d7757ebf60b809334b4f3932 6257221 flowvr_2.3.2.orig.tar.bz2
+Checksums-Sha1:
+ 23aea0b674d63d01d96349b93e5f705ede13a028 1940 flowvr_2.3.2-1~bpo11.pdidev.5153632.debian.tar.xz
+ dcf07df38768934274fd66782f2894268f5cf934 1991 flowvr_2.3.2-1~bpo11.pdidev.5153632.dsc
+ 092ce836a7fe4bd2cd6fb148c73997cd2c04649c 6257221 flowvr_2.3.2.orig.tar.bz2
+Package-List:
+ flowvr deb libs optional arch=any
+Checksums-Sha512:
+ b9114620c05c070943bc9917b903ee6f4d904dcd38350eac8bc33079db33753776ed27f747149f8e2df72b133ed97301b5e47f72a1c5b6e8111cae9d3cd404ce 1940 flowvr_2.3.2-1~bpo11.pdidev.5153632.debian.tar.xz
+ c91050b5590e9a3208ffb6dea4aaf2b515ebffcd8703c3c42b508eccbd7a69b54ae08a71ecf1f75f5fc03e2b208504677fd0a1b548341879dcfe3f7bdc0c2b4b 1991 flowvr_2.3.2-1~bpo11.pdidev.5153632.dsc
+ ca6cf1dc63f6505f4f79731980d27c9e91d91907ab3eb28a64f2bdc7a661c7d7096f1e430d6f5bf144de4605035baebf23f7008ca6d2e22b1afa0dc9e4b7efe9 6257221 flowvr_2.3.2.orig.tar.bz2
+
+Package: fti
+Binary: libfti-openmpi-1, libfti-mpich-1, libfti-openmpi-dev, libfti-mpich-dev
+Version: 1.5.1-1~bpo11.pdidev.4218601
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.4), libmpich-dev, libopenmpi-dev, libssl-dev, mpi-default-dev, mpich, openmpi-bin
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/f/fti
+Files:
+ 5b6732145665f845740dc2968aca5e19 2192 fti_1.5.1-1~bpo11.pdidev.4218601.debian.tar.xz
+ 2109508cd5cfd7dbc7f53f787282c79f 2055 fti_1.5.1-1~bpo11.pdidev.4218601.dsc
+ f3d0c14cc700168f6bb417366cc09cf3 1747026 fti_1.5.1.orig.tar.gz
+Package-List:
+ libfti-mpich-1 deb libs optional arch=any
+ libfti-mpich-dev deb libs optional arch=any
+ libfti-openmpi-1 deb libs optional arch=any
+ libfti-openmpi-dev deb libs optional arch=any
+Checksums-Sha256:
+ a84d592402597a8af65a829efee13b90b6af1c571fe3c78e2e581c81a354f5b7 2192 fti_1.5.1-1~bpo11.pdidev.4218601.debian.tar.xz
+ d0103dd8755d8a961f4a70be18c2ced417cb620021871c0d44bd1c4975624aaf 2055 fti_1.5.1-1~bpo11.pdidev.4218601.dsc
+ 62fdc4c0f00c9f3cd0d44be294fa6b30495923f9fea6f4e2dbeb59670abd0d3f 1747026 fti_1.5.1.orig.tar.gz
+Checksums-Sha512:
+ fe44cb315dbf764677c8e4306a98f20ed0f4f6d8341997ac53eed9caf5b4864d3a7b6f061e02e0b8a09738ca05e8905593a20c2a12ce5a7fd7fa4f0ab42628c5 2192 fti_1.5.1-1~bpo11.pdidev.4218601.debian.tar.xz
+ 09d14909dcbf27d47bfe3d2cb6d5990f44a564d7fad25f252a48a53c8aa2ee097efc8425bed3a4a6c946c91dba06dbfbf919db2675ef584c08dc85319f9b2cff 2055 fti_1.5.1-1~bpo11.pdidev.4218601.dsc
+ e3a8c29cf87e28c3483f88c3d822e7eee26ccaba1b26f9b65e103bf639eba518dbcaf7eea3e001fa02ac3c822ec377f5bcf599e9c6e15010eb2b71d7ff857a87 1747026 fti_1.5.1.orig.tar.gz
+Checksums-Sha1:
+ d53f43a71d10d97bfc51072232dc54ce41ce78bd 2192 fti_1.5.1-1~bpo11.pdidev.4218601.debian.tar.xz
+ 6a76707a3940f7df96956983e158340b7d44f441 2055 fti_1.5.1-1~bpo11.pdidev.4218601.dsc
+ b12f9ba84575e3e5e2a842ce807c8daf843dee57 1747026 fti_1.5.1.orig.tar.gz
+Homepage: https://github.com/leobago/fti
+
+Package: paraconf
+Binary: libparaconf0, libparaconf-f90.0, libparaconf-dev
+Version: 0.4.9-2~bpo11.pdidev.3960046
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), dh-exec, dh-fortran-mod <!stretch !xenial !bionic>, cmake (>= 3.5), gfortran | fortran-compiler, libyaml-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/paraconf
+Files:
+ fe47e65b7b39dc346d568516e3ba955e 1580 paraconf_0.4.9-2~bpo11.pdidev.3960046.debian.tar.xz
+ 52649279f6f5996797cf55db9b10662a 2051 paraconf_0.4.9-2~bpo11.pdidev.3960046.dsc
+ 7c1e1693a8775fbf5d171a15fdcd1222 126974 paraconf_0.4.9.orig.tar.gz
+Package-List:
+ libparaconf-dev deb libdevel optional arch=any
+ libparaconf-f90.0 deb libs optional arch=any
+ libparaconf0 deb libs optional arch=any
+Checksums-Sha1:
+ 4a5a166c4f5405162e56233adce3e0bb71c72c1b 1580 paraconf_0.4.9-2~bpo11.pdidev.3960046.debian.tar.xz
+ fa05427bd97d7fe58d1bab185d45a94df949ba9e 2051 paraconf_0.4.9-2~bpo11.pdidev.3960046.dsc
+ de0a8bb18980fab037ff1b5f885d5d242ae35dd1 126974 paraconf_0.4.9.orig.tar.gz
+Checksums-Sha256:
+ d4a3bc397f413ab176f0142b2953238a42dbd2a8f65ae2276b47c4bda24d1747 1580 paraconf_0.4.9-2~bpo11.pdidev.3960046.debian.tar.xz
+ 7df4f45c3ed5ed7b353c6742510b6252a38d1d8f4d7f120f10eaf5ffa4ca58b2 2051 paraconf_0.4.9-2~bpo11.pdidev.3960046.dsc
+ e99a01584e07e4d09b026fcd9a39500fbdbc3074a2598a4bc89f400825094c5a 126974 paraconf_0.4.9.orig.tar.gz
+Checksums-Sha512:
+ f22cb980b017faec71be4d484fffcb098d118a354604ec1d3595208184bab8afefcb045c80ebcaff2e545e0e28cf7e7267a4487d6ae19a6fd3edfc80bceb7069 1580 paraconf_0.4.9-2~bpo11.pdidev.3960046.debian.tar.xz
+ 8989b7a56c32224aa4d990683fcd68d7717c630e1577962e3faa9b7ea90380b4fa64d2e539a8736262add26b5943ffce8a3b7dc532b8ce02fe21dea7c2d0b7bc 2051 paraconf_0.4.9-2~bpo11.pdidev.3960046.dsc
+ 8bb3e21ed0ed86033a4312c8d2f368feeb3a3a4c7830838ec63441502a113de465413b5ab67dca4eda0d949f04862a9f08d2f97e1c1be3c7d4e3c955f1857216 126974 paraconf_0.4.9.orig.tar.gz
+Homepage: https://github.com/pdidev/paraconf
+
+Package: pdi
+Binary: libpdi1, libpdi-f90.1, libpdi-pysupport1, python3-pdi, libpdi-dev, pdiplugin-all
+Version: 9999master-1~bpo11.pdidev.7822779
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), dh-exec, dh-python, dh-fortran-mod <!stretch !xenial !bionic>, cmake (>= 3.5) <stretch> <xenial> <bionic> <disco>, cmake (>= 3.10) <!stretch !xenial !bionic !disco>, gfortran | fortran-compiler, libgmock-dev (>= 1.8.0) <!stretch !xenial !bionic !disco>, libgtest-dev (>= 1.8.0) <!stretch !xenial !bionic !disco>, libparaconf-dev (>= 0.4.0), libspdlog-dev (>= 1:1.3.1), pkg-config, pybind11-dev (>= 2.3.0), python3-dev (>= 3.5), python3-numpy, zpp
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdi
+Files:
+ 599bee44092a35097e3eec38d244a15d 2212 pdi_9999master-1~bpo11.pdidev.7822779.debian.tar.xz
+ 063116f388ebff64fbc97c654a70b1b8 2520 pdi_9999master-1~bpo11.pdidev.7822779.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdi_9999master.orig.tar.bz2
+Package-List:
+ libpdi-dev deb libs optional arch=any
+ libpdi-f90.1 deb libs optional arch=any
+ libpdi-pysupport1 deb libs optional arch=any
+ libpdi1 deb libs optional arch=any
+ pdiplugin-all deb all optional arch=any
+ python3-pdi deb libs optional arch=any
+Checksums-Sha1:
+ 5e1714412d209ddfa38756c9f1e897e735c269a9 2212 pdi_9999master-1~bpo11.pdidev.7822779.debian.tar.xz
+ 86cc2d8b73f3629c8f17a09d0c97870e40da881f 2520 pdi_9999master-1~bpo11.pdidev.7822779.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdi_9999master.orig.tar.bz2
+Checksums-Sha512:
+ 33fd7936e11d548b6de4ad112ecdf215a466a746d7c2fce82187ff7d33f84caee89544af98e860945fdd82a3a6d29ea3f140205a5ef8ed8793de44d59646ccf8 2212 pdi_9999master-1~bpo11.pdidev.7822779.debian.tar.xz
+ d203348afefd0db1793c2ed84424fdb69a4b3bf41483311b6688df5211c0d2e1e6886077f70f8c67452312de86842167816d4a0317eed96ac1fee977deabc203 2520 pdi_9999master-1~bpo11.pdidev.7822779.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdi_9999master.orig.tar.bz2
+Checksums-Sha256:
+ 02a25d5f6b8702e4b18ecaa925c23a46f062c0ce8985173f5438e86066e088df 2212 pdi_9999master-1~bpo11.pdidev.7822779.debian.tar.xz
+ ffcce782f0ba478eceb2a359ba1ce591f8a6feaddf6f97108ecb91fa98e7e572 2520 pdi_9999master-1~bpo11.pdidev.7822779.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdi_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdidev-archive-keyring
+Binary: pdidev-archive-keyring
+Version: 2021.01.02~bpo11.pdidev.1895118
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9)
+Architecture: all
+Standards-Version: 4.5.0
+Format: 3.0 (native)
+Directory: pool/main/p/pdidev-archive-keyring
+Files:
+ 95cb343d4c10b8dd36bb6c8bb679b37e 1575 pdidev-archive-keyring_2021.01.02~bpo11.pdidev.1895118.dsc
+ 53655f2f45e0baec9e2c6a328cb5545e 2812 pdidev-archive-keyring_2021.01.02~bpo11.pdidev.1895118.tar.xz
+Package-List:
+ pdidev-archive-keyring deb misc extra arch=all
+Checksums-Sha256:
+ dfd977545fb18c4a81549a819b5f6c56adc7f2795f702f4e178c7dd4b30d888d 1575 pdidev-archive-keyring_2021.01.02~bpo11.pdidev.1895118.dsc
+ 974b134f82c89143a98c4c69e54da875b21c8dbfe90aff49d0045719b4f898fd 2812 pdidev-archive-keyring_2021.01.02~bpo11.pdidev.1895118.tar.xz
+Checksums-Sha512:
+ 5d670cfce6a40d76b8cf7fd73773d4b242f95396d9b7cbdbafbda9d73a0272a2b29a512b8ae3e029cdea407d54e3ad439889dc6c2eadc4901e2a425a66f4cc77 1575 pdidev-archive-keyring_2021.01.02~bpo11.pdidev.1895118.dsc
+ 610e6cdd44fba1a992f5e8ed1e90ec9975d9aa03565f1bc7a820a627fd77f9b88556cd35d983d0c456bf47ef9389842c83851d2c286d4aea5db06d077ece211f 2812 pdidev-archive-keyring_2021.01.02~bpo11.pdidev.1895118.tar.xz
+Checksums-Sha1:
+ 12c70347984a321740e1d4fe03516fe1ab10570a 1575 pdidev-archive-keyring_2021.01.02~bpo11.pdidev.1895118.dsc
+ 1ebbdd230e225c231af6bead2002d1cd508b4364 2812 pdidev-archive-keyring_2021.01.02~bpo11.pdidev.1895118.tar.xz
+
+Package: pdiplugin-decl-hdf5
+Binary: pdiplugin-decl-hdf5-serial, pdiplugin-decl-hdf5-openmpi, pdiplugin-decl-hdf5-mpich
+Version: 9999master-1~bpo11.pdidev.7827789
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libhdf5-dev (>= 1.8), libhdf5-mpich-dev (>= 1.8), libhdf5-openmpi-dev (>= 1.8), libpdi-dev, mpi-default-dev, mpich <!nocheck>, openmpi-bin <!nocheck>, pdiplugin-mpi-mpich <!nocheck>, pdiplugin-mpi-openmpi <!nocheck>, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-decl-hdf5
+Files:
+ cd30f070161b06cd56d6724a3a3856f6 2532 pdiplugin-decl-hdf5_9999master-1~bpo11.pdidev.7827789.debian.tar.xz
+ 60de6938d4f2c48871684340c66b9338 2353 pdiplugin-decl-hdf5_9999master-1~bpo11.pdidev.7827789.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-decl-hdf5_9999master.orig.tar.bz2
+Checksums-Sha256:
+ 4bf2d427b783cc4ca2e8ffcbdc4918224848d612e397d976e3024ca53e3101c8 2532 pdiplugin-decl-hdf5_9999master-1~bpo11.pdidev.7827789.debian.tar.xz
+ 9fde5af5b7de1fb399747e01e4e1c7d97b0476110353268186924b989dd4375c 2353 pdiplugin-decl-hdf5_9999master-1~bpo11.pdidev.7827789.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-decl-hdf5_9999master.orig.tar.bz2
+Checksums-Sha512:
+ d9d69b2c31c42d8f61589020d524f33141ebfc730794f8cea98d7e9b976bf6cd35996785ce73bd47df7f5b036d1b85c237a459dda62ffda9a73d9b4f48386494 2532 pdiplugin-decl-hdf5_9999master-1~bpo11.pdidev.7827789.debian.tar.xz
+ af572fa0bb36d25fbc168156e955551b2e3c2c5f8c983f40b4e38e32cd84a8e55dfd16d6d7c378fc13c72ec288b293e4a5e45a24ea26c341d79a7f666112f44b 2353 pdiplugin-decl-hdf5_9999master-1~bpo11.pdidev.7827789.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-decl-hdf5_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+Package-List:
+ pdiplugin-decl-hdf5-mpich deb libs optional arch=any
+ pdiplugin-decl-hdf5-openmpi deb libs optional arch=any
+ pdiplugin-decl-hdf5-serial deb libs optional arch=any
+Checksums-Sha1:
+ fbce2f51ebe8f2fd206524fb2dc9c11042cbd3a9 2532 pdiplugin-decl-hdf5_9999master-1~bpo11.pdidev.7827789.debian.tar.xz
+ 75c51424ce0d6ceb28b425455da4db527086179b 2353 pdiplugin-decl-hdf5_9999master-1~bpo11.pdidev.7827789.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-decl-hdf5_9999master.orig.tar.bz2
+
+Package: pdiplugin-decl-netcdf
+Binary: pdiplugin-decl-netcdf-serial, pdiplugin-decl-netcdf-mpich, pdiplugin-decl-netcdf-openmpi
+Version: 9999master-1~bpo11.pdidev.7827810
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libnetcdf-dev, libnetcdf-mpi-dev <!bionic !xenial>, libpdi-dev, mpi-default-dev, mpich <!nocheck>, openmpi-bin <!nocheck>, pdiplugin-mpi-mpich <!nocheck>, pdiplugin-mpi-openmpi <!nocheck>, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-decl-netcdf
+Files:
+ 4bc1dc901e1af0aa83dbcc77f69917be 2308 pdiplugin-decl-netcdf_9999master-1~bpo11.pdidev.7827810.debian.tar.xz
+ 24e580a7a29950d9040570dd65bc6841 2385 pdiplugin-decl-netcdf_9999master-1~bpo11.pdidev.7827810.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-decl-netcdf_9999master.orig.tar.bz2
+Checksums-Sha1:
+ 5431ad775a8090f01a9b76421a27d477e4f1f68f 2308 pdiplugin-decl-netcdf_9999master-1~bpo11.pdidev.7827810.debian.tar.xz
+ a939b37cb50aaf1893837fb031ba0baccacc0dce 2385 pdiplugin-decl-netcdf_9999master-1~bpo11.pdidev.7827810.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-decl-netcdf_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+Package-List:
+ pdiplugin-decl-netcdf-mpich deb libs optional arch=any profile=disabled
+ pdiplugin-decl-netcdf-openmpi deb libs optional arch=any profile=disabled
+ pdiplugin-decl-netcdf-serial deb libs optional arch=any
+Checksums-Sha512:
+ b6190f7f74d9651bca89e17de555909fa0f41448784b7818227c0a6ac13f5d0e5c9075686a3a705ced3170085ad20174774d30cf8c5e29ae370819d7484c7e83 2308 pdiplugin-decl-netcdf_9999master-1~bpo11.pdidev.7827810.debian.tar.xz
+ 77941a70644a1efe1c9dfbf56c20f6a08199b24b5adbc06788a96086781d9c17de6affe707d29a9b61d0ee87971dd901a53331aa30f8760bafef5007beb8c16f 2385 pdiplugin-decl-netcdf_9999master-1~bpo11.pdidev.7827810.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-decl-netcdf_9999master.orig.tar.bz2
+Checksums-Sha256:
+ 0284d1aed06c2e60574ed93ef45417043675ef1c6cdc0f5ebb31da5e054bde24 2308 pdiplugin-decl-netcdf_9999master-1~bpo11.pdidev.7827810.debian.tar.xz
+ 0129ae92438ea5efdee9f94c24db20b44842d0ceb946af4701359d288e014cd1 2385 pdiplugin-decl-netcdf_9999master-1~bpo11.pdidev.7827810.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-decl-netcdf_9999master.orig.tar.bz2
+
+Package: pdiplugin-decl-sion
+Binary: pdiplugin-decl-sion-mpich, pdiplugin-decl-sion-openmpi, pdiplugin-decl-sion-serial
+Version: 9999master-1~bpo11.pdidev.7827937
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libpdi-dev, libsion-mpich-dev, libsion-openmpi-dev, libsion-serial-dev, mpi-default-dev, mpich <!nocheck>, openmpi-bin <!nocheck>, pdiplugin-mpi-mpich <!nocheck>, pdiplugin-mpi-openmpi <!nocheck>, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-decl-sion
+Files:
+ 3f78e77964c15da9dc53f412e46556fc 2188 pdiplugin-decl-sion_9999master-1~bpo11.pdidev.7827937.debian.tar.xz
+ f0fb7f7a2ed8bce4948bfe7250384070 2350 pdiplugin-decl-sion_9999master-1~bpo11.pdidev.7827937.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-decl-sion_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-decl-sion-mpich deb libs optional arch=any
+ pdiplugin-decl-sion-openmpi deb libs optional arch=any
+ pdiplugin-decl-sion-serial deb libs optional arch=any profile=disabled
+Checksums-Sha256:
+ 161d018a979aa22c6607e7c029a773e13c8236c14d22e08996268b8eb4c04500 2188 pdiplugin-decl-sion_9999master-1~bpo11.pdidev.7827937.debian.tar.xz
+ 31ed36b4736705536fa535e0dbb7a591de334485b557af6382c75b383e7c16ee 2350 pdiplugin-decl-sion_9999master-1~bpo11.pdidev.7827937.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-decl-sion_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+Checksums-Sha1:
+ d7704c21682e21ecdf46a6c6fa0e059786b861ff 2188 pdiplugin-decl-sion_9999master-1~bpo11.pdidev.7827937.debian.tar.xz
+ e6f0c7e68536c212d59aeb251ad41098116b6cad 2350 pdiplugin-decl-sion_9999master-1~bpo11.pdidev.7827937.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-decl-sion_9999master.orig.tar.bz2
+Checksums-Sha512:
+ 8621f594ce7d520dbab0a67640db04b44099acdeb3b64ef58b0783b677079606b13b57af432fdb5296f26ba1eaa2a078dabbfdf5ab0e7129cc55b0f235f64821 2188 pdiplugin-decl-sion_9999master-1~bpo11.pdidev.7827937.debian.tar.xz
+ 163054e6bf7a9c6f406ad47c62bc0ca5d16c1b654dc8a73e800e48539018b5433c0af5882fdf0847f290b95d21864c8bf6aa43bcd3a6e7d9ab97d586f80cf3ce 2350 pdiplugin-decl-sion_9999master-1~bpo11.pdidev.7827937.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-decl-sion_9999master.orig.tar.bz2
+
+Package: pdiplugin-flowvr
+Binary: pdiplugin-flowvr
+Version: 9999master-1~bpo11.pdidev.8690150
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), flowvr, libpdi-dev, pkg-config, python3-yaml
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-flowvr
+Files:
+ fe066ad98601461db44732eaf391b36d 1108 pdiplugin-flowvr_9999master-1~bpo11.pdidev.8690150.debian.tar.xz
+ 127efe70e2316e466adef7e0b44d845f 1963 pdiplugin-flowvr_9999master-1~bpo11.pdidev.8690150.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-flowvr_9999master.orig.tar.bz2
+Checksums-Sha256:
+ f4c0ea29088b4b50be71c69613b1655f815e95e733917736f1ec5fd734f7543f 1108 pdiplugin-flowvr_9999master-1~bpo11.pdidev.8690150.debian.tar.xz
+ 7f3d8a92e258be7a8f75f4a039d9b07c807dd54d2f28820b91fba0de5998ed5d 1963 pdiplugin-flowvr_9999master-1~bpo11.pdidev.8690150.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-flowvr_9999master.orig.tar.bz2
+Checksums-Sha512:
+ 8a7fc5adeedc4a9d425a76017c32737b09c653d696eb20d1a8a062df96105ab29feacaea00ff9d34948779869dd56e81a2d8d628d2d04eeb406e7924ea40a4ba 1108 pdiplugin-flowvr_9999master-1~bpo11.pdidev.8690150.debian.tar.xz
+ ac70df911cc3d1b5f08510aad597e6151622d37b2aa2647d557e45cca468fab14eacf4abb2c60bba6eec8f3bd87178b0a356d71ae0a2168d43938257802e32aa 1963 pdiplugin-flowvr_9999master-1~bpo11.pdidev.8690150.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-flowvr_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-flowvr deb libs optional arch=any
+Homepage: https://pdi.julien-bigot.fr/
+Checksums-Sha1:
+ ec8c520ddf1dee337c35e5bf869045165fa31d43 1108 pdiplugin-flowvr_9999master-1~bpo11.pdidev.8690150.debian.tar.xz
+ 596dd08cefeaf24d039397d869e2315bae90949d 1963 pdiplugin-flowvr_9999master-1~bpo11.pdidev.8690150.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-flowvr_9999master.orig.tar.bz2
+
+Package: pdiplugin-fti
+Binary: pdiplugin-fti-mpich, pdiplugin-fti-openmpi
+Version: 9999master-1~bpo11.pdidev.7827919
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libfti-mpich-dev, libfti-openmpi-dev, libpdi-dev, mpi-default-dev, mpich <!nocheck>, openmpi-bin <!nocheck>, pdiplugin-mpi-mpich <!nocheck>, pdiplugin-mpi-openmpi <!nocheck>, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-fti
+Files:
+ e53736dfb023bf80bad08638f5f0dc50 2116 pdiplugin-fti_9999master-1~bpo11.pdidev.7827919.debian.tar.xz
+ 09ef88211cd91452f90dd22f709b6d21 2162 pdiplugin-fti_9999master-1~bpo11.pdidev.7827919.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-fti_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+Checksums-Sha256:
+ 0e24fde9016df05d701a2ed3331f4145e2231fd0da01ab07b9ca448dcb17d2d9 2116 pdiplugin-fti_9999master-1~bpo11.pdidev.7827919.debian.tar.xz
+ b129e3157fd6dbfd7af04fa7b1e2cf0c99965764a22a1926fdd5b9fbcd84ffce 2162 pdiplugin-fti_9999master-1~bpo11.pdidev.7827919.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-fti_9999master.orig.tar.bz2
+Checksums-Sha1:
+ f59d6a4b7efd852f7916fdb5d4fe6897dce593b8 2116 pdiplugin-fti_9999master-1~bpo11.pdidev.7827919.debian.tar.xz
+ 8df17345ceaffdc2642a663431ba0b2b47d18b70 2162 pdiplugin-fti_9999master-1~bpo11.pdidev.7827919.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-fti_9999master.orig.tar.bz2
+Checksums-Sha512:
+ 4367a1806174b081ba01e07021195f705b1ab758d236a9d924392125e9ed7140d59ac37c7a64603e0c0cd9a54cdfa3766d2e7286e0cfc11af3767b0973c2c4d6 2116 pdiplugin-fti_9999master-1~bpo11.pdidev.7827919.debian.tar.xz
+ fa4ad0caf9c6c5f935863f964fdeeb779359bd7a5e178bf7077edda60b8849b8db9296560f2f2b42fd291afa554ba968951bdef86f939c2e218778b27404a232 2162 pdiplugin-fti_9999master-1~bpo11.pdidev.7827919.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-fti_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-fti-mpich deb libs optional arch=any
+ pdiplugin-fti-openmpi deb libs optional arch=any
+
+Package: pdiplugin-mpi
+Binary: pdiplugin-mpi-mpich, pdiplugin-mpi-openmpi
+Version: 9999master-1~bpo11.pdidev.7826115
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libmpich-dev, libopenmpi-dev, libpdi-dev, mpi-default-dev, mpich <!nocheck>, openmpi-bin <!nocheck>, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-mpi
+Files:
+ fbbdd3db41f56588c3525388366c9a07 2140 pdiplugin-mpi_9999master-1~bpo11.pdidev.7826115.debian.tar.xz
+ 5bae058e62b31e1915a196763cfb5362 2088 pdiplugin-mpi_9999master-1~bpo11.pdidev.7826115.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-mpi_9999master.orig.tar.bz2
+Checksums-Sha1:
+ bc22efc3f346da8a07591fd2505ddb26ed21416f 2140 pdiplugin-mpi_9999master-1~bpo11.pdidev.7826115.debian.tar.xz
+ 8069515e510839845f8ff7afcaa1ccac0fbd738b 2088 pdiplugin-mpi_9999master-1~bpo11.pdidev.7826115.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-mpi_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-mpi-mpich deb libs optional arch=any
+ pdiplugin-mpi-openmpi deb libs optional arch=any
+Homepage: https://pdi.julien-bigot.fr/
+Checksums-Sha512:
+ 70bd433c5f9f0c6d346e5ea2bb1c5dbf925b9bb18cab355c9de17170aaa33e08bf698ce85576dafddb5ba10d22619ee940b9e6ef7afb80c45d4d6d45883c816c 2140 pdiplugin-mpi_9999master-1~bpo11.pdidev.7826115.debian.tar.xz
+ a588e6bd96c142af7d824fc5ed56b310ec4fa843c17c77d1adb0938876df120ec8767bb628028c5fc7b8968517b2605c14ced79643c609bb6a67f178bb2650b4 2088 pdiplugin-mpi_9999master-1~bpo11.pdidev.7826115.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-mpi_9999master.orig.tar.bz2
+Checksums-Sha256:
+ 037e02f9147294c2098144952fa5861f6af3a59ddf86e5555ada528f3a51c074 2140 pdiplugin-mpi_9999master-1~bpo11.pdidev.7826115.debian.tar.xz
+ c7738177dde7eca018c88c6d9d85a28767f1121656671639a967261529cf91e2 2088 pdiplugin-mpi_9999master-1~bpo11.pdidev.7826115.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-mpi_9999master.orig.tar.bz2
+
+Package: pdiplugin-pycall
+Binary: pdiplugin-pycall
+Version: 9999master-1~bpo11.pdidev.7826224
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libpdi-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-pycall
+Files:
+ 9d2110b296bf0afa42ad68fdb3e6b62a 1176 pdiplugin-pycall_9999master-1~bpo11.pdidev.7826224.debian.tar.xz
+ 30717ee7c5c4d0a7079b0851f6672334 1941 pdiplugin-pycall_9999master-1~bpo11.pdidev.7826224.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-pycall_9999master.orig.tar.bz2
+Checksums-Sha1:
+ 8891c9c150e584dadc21a395866b93f5f586881c 1176 pdiplugin-pycall_9999master-1~bpo11.pdidev.7826224.debian.tar.xz
+ cbbd6a8f1b726274f88bf7f49e9a4b4d077cc50f 1941 pdiplugin-pycall_9999master-1~bpo11.pdidev.7826224.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-pycall_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+Checksums-Sha256:
+ cb5d7c29f0c5e7fc71c5796bd69f4bd1bf033c566e2631710bc5d3d792140415 1176 pdiplugin-pycall_9999master-1~bpo11.pdidev.7826224.debian.tar.xz
+ da61617bc19a39128e6b067a9ad98bd96c6c49c33eeb9316b5f0e49fff29393d 1941 pdiplugin-pycall_9999master-1~bpo11.pdidev.7826224.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-pycall_9999master.orig.tar.bz2
+Checksums-Sha512:
+ bbc239cf56b6a2353e543021e0ba458b56b26d520120eb8ce81d0b7c3421d247b060f83ef09019e91c04b9f231c84db38d74d5d9c1880344466efa76823085ba 1176 pdiplugin-pycall_9999master-1~bpo11.pdidev.7826224.debian.tar.xz
+ 921d67e3779eb97d820c5e07c8ab154ec92d45ed1c04e6dfc423b9b73a19c206dae7d465de1c587f2ceb200ae7ee06fa96476cb164c62e147c4418ebf044d60e 1941 pdiplugin-pycall_9999master-1~bpo11.pdidev.7826224.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-pycall_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-pycall deb libs optional arch=any
+
+Package: pdiplugin-serialize
+Binary: pdiplugin-serialize
+Version: 9999master-1~bpo11.pdidev.7826033
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libpdi-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-serialize
+Files:
+ a5931856e54a98607e32ac3349d8d1c2 1024 pdiplugin-serialize_9999master-1~bpo11.pdidev.7826033.debian.tar.xz
+ a83a95053eab2fffeffae77f045192ee 1968 pdiplugin-serialize_9999master-1~bpo11.pdidev.7826033.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-serialize_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+Checksums-Sha512:
+ f8aa50956742fe3b6b75430423487199c4827f7ad7f7e4a068dd81deaff17bc5f5990c62cb8789f6d1d73e4e9fb1ba0c2f8507762f4e32543d67dd6b2ae49e3c 1024 pdiplugin-serialize_9999master-1~bpo11.pdidev.7826033.debian.tar.xz
+ 4b756aa84390c1327f7fd88bde3e9ea8acbd19aac418b77b62dc1832ded8d9b0f62f34329d2c8f5120b6099d359bdd41c2316effcb4fd1b882ddc5186aa67347 1968 pdiplugin-serialize_9999master-1~bpo11.pdidev.7826033.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-serialize_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-serialize deb libs optional arch=any
+Checksums-Sha1:
+ 2da81c3a573700b9a71f0addb6c1432ee3882db0 1024 pdiplugin-serialize_9999master-1~bpo11.pdidev.7826033.debian.tar.xz
+ 3a513179476444d3a6116a800da7f0ba059152f0 1968 pdiplugin-serialize_9999master-1~bpo11.pdidev.7826033.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-serialize_9999master.orig.tar.bz2
+Checksums-Sha256:
+ 0f8434b557c18fd341e2725481912326c70072b05756794edfb4e01afb03d601 1024 pdiplugin-serialize_9999master-1~bpo11.pdidev.7826033.debian.tar.xz
+ f65a43e512f61b266e4f1737668d2b4868f53729733cc5c3eb3fb61652eebeb7 1968 pdiplugin-serialize_9999master-1~bpo11.pdidev.7826033.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-serialize_9999master.orig.tar.bz2
+
+Package: pdiplugin-set-value
+Binary: pdiplugin-set-value
+Version: 9999master-1~bpo11.pdidev.7826224
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libpdi-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-set-value
+Files:
+ edd9624c4a932b5cd0126b2929128f2b 1004 pdiplugin-set-value_9999master-1~bpo11.pdidev.7826224.debian.tar.xz
+ d15c6e7dadcc58c12d7b795975362713 1968 pdiplugin-set-value_9999master-1~bpo11.pdidev.7826224.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-set-value_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-set-value deb libs optional arch=any
+Checksums-Sha1:
+ e3156a0c77d163756503eb0d741c235434525d79 1004 pdiplugin-set-value_9999master-1~bpo11.pdidev.7826224.debian.tar.xz
+ 42a654e4c71f1eacf77e5324eac0a04f6965894e 1968 pdiplugin-set-value_9999master-1~bpo11.pdidev.7826224.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-set-value_9999master.orig.tar.bz2
+Checksums-Sha256:
+ 4eaaf55d533dd7ed74f8cf566e3c023dc4bc8e14d8493ad8b2f8d98ec4da1967 1004 pdiplugin-set-value_9999master-1~bpo11.pdidev.7826224.debian.tar.xz
+ 15673ea4f3e720dd3b88f9e44e1468f1fd057d520b6356e9892db97ce62cdbd2 1968 pdiplugin-set-value_9999master-1~bpo11.pdidev.7826224.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-set-value_9999master.orig.tar.bz2
+Checksums-Sha512:
+ fa93c3fc21884ced2753203678f42aab6bbea69bd06cb733ee871abfa1d2c985d3ee1dd19bda8aaee2299c8d7d3ca8003df5cb17a74ec420c3ca4a3272509f28 1004 pdiplugin-set-value_9999master-1~bpo11.pdidev.7826224.debian.tar.xz
+ 5ba56159a2d1294cf849abc57c3d111a1dd87fcac54f5bce4d683d8fefb468e115cf00fcf1a106c0c3ba92fcb11418c06eacf2d433cf306816dc2005f412da67 1968 pdiplugin-set-value_9999master-1~bpo11.pdidev.7826224.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-set-value_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: pdiplugin-trace
+Binary: pdiplugin-trace
+Version: 9999master-1~bpo11.pdidev.7826312
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libpdi-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-trace
+Files:
+ 3ad8c87aa3debfc973e63d96fbdc0c8c 1112 pdiplugin-trace_9999master-1~bpo11.pdidev.7826312.debian.tar.xz
+ 173e2e5e0fb6f5487daf1c9dfc07a3d3 1932 pdiplugin-trace_9999master-1~bpo11.pdidev.7826312.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-trace_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+Checksums-Sha1:
+ 4db895f784c24e0389e45cf75c8dc9b87d9e264e 1112 pdiplugin-trace_9999master-1~bpo11.pdidev.7826312.debian.tar.xz
+ 904ad1ef0c8e939593f6259c9640b915be5b5d24 1932 pdiplugin-trace_9999master-1~bpo11.pdidev.7826312.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-trace_9999master.orig.tar.bz2
+Checksums-Sha256:
+ 1d693b4cf59125599cfbfcf43e0a282f79a960a5933a9f0a0614a59ae8bfb5df 1112 pdiplugin-trace_9999master-1~bpo11.pdidev.7826312.debian.tar.xz
+ 089a2c153841fae518db34a047f0506f86b5143e350ce3fb565d1769b8427eb8 1932 pdiplugin-trace_9999master-1~bpo11.pdidev.7826312.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-trace_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-trace deb libs optional arch=any
+Checksums-Sha512:
+ 2b33c097b561c09926d4431ed5f374e5ecbc53da11cb870c400c95b8d4e2e92c9f4f617019d63c2b4a69018e71bb241d5e50d159b921db705a399bb9fd7c62c2 1112 pdiplugin-trace_9999master-1~bpo11.pdidev.7826312.debian.tar.xz
+ d10b0e8ac7710b3f5708e7b044a2ff69f6f08749aba5064a6669642e682f73692c697326ed94a8b39bc288de2a420874f647db5ccc366e2416319d88302f05e2 1932 pdiplugin-trace_9999master-1~bpo11.pdidev.7826312.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-trace_9999master.orig.tar.bz2
+
+Package: pdiplugin-user-code
+Binary: pdiplugin-user-code
+Version: 9999master-1~bpo11.pdidev.7826305
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), cmake (>= 3.5), libpdi-dev, pkg-config
+Architecture: any
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/p/pdiplugin-user-code
+Files:
+ f7954f45b0817ce48dc250dabfb13f55 1152 pdiplugin-user-code_9999master-1~bpo11.pdidev.7826305.debian.tar.xz
+ 1817309aac18c7db26007c96e59d9958 1968 pdiplugin-user-code_9999master-1~bpo11.pdidev.7826305.dsc
+ 4d2af6ebd137b5f5d1fae9cd9697d056 39018313 pdiplugin-user-code_9999master.orig.tar.bz2
+Package-List:
+ pdiplugin-user-code deb libs optional arch=any
+Checksums-Sha1:
+ d263570ca24bf1410f0d61c6ee42491aa9030b62 1152 pdiplugin-user-code_9999master-1~bpo11.pdidev.7826305.debian.tar.xz
+ 59ed0d3c7479da34b31cfa89a21f81c802de501c 1968 pdiplugin-user-code_9999master-1~bpo11.pdidev.7826305.dsc
+ b4b3f1b2cc96d91aafd73eee0a11c82bdb67dc67 39018313 pdiplugin-user-code_9999master.orig.tar.bz2
+Checksums-Sha512:
+ 6d5b601abacd048d842521f438a97bc70c4dc440502fcafabaa98250bdefb2e7bfe28d40b83d5841010217d372190a53aa981be74de1975c5f7461eee297bc01 1152 pdiplugin-user-code_9999master-1~bpo11.pdidev.7826305.debian.tar.xz
+ 13308c1d92d3683a14779835a494241c781dbdaf9e0bf872f148d90483ea9995bf0f06094d55979e3957daa3e973e069b8838b369c78cad9317bfecde8347fa7 1968 pdiplugin-user-code_9999master-1~bpo11.pdidev.7826305.dsc
+ 7bb07a9139eefc910637146ad66a7acf923f1d11a31a195c8d9f7217b62a8be21ad9ecf5382dc3f8a79240df10021042730c0aaf90da2d61e810c8f34aa7409c 39018313 pdiplugin-user-code_9999master.orig.tar.bz2
+Checksums-Sha256:
+ 5468cab9f6c4e13b5f5b616f7b0a2f81da15b59511af4c0a67894bd26adf5164 1152 pdiplugin-user-code_9999master-1~bpo11.pdidev.7826305.debian.tar.xz
+ 3ff7c19aeb77d604487a64c5b79f924c47e46436d946fbabeb92a20507c308c1 1968 pdiplugin-user-code_9999master-1~bpo11.pdidev.7826305.dsc
+ c706728f6b790b21d6b0e8ca1e3c9e2938859702c08bd7e7e67493abf846d658 39018313 pdiplugin-user-code_9999master.orig.tar.bz2
+Homepage: https://pdi.julien-bigot.fr/
+
+Package: sionlib
+Binary: libsion-headers, libsion-openmpi-dev, libsion-mpich-dev, libsion-serial-dev
+Version: 1.7.6-1~bpo11.pdidev.3532553
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), dh-exec, libmpich-dev, libopenmpi-dev, mpi-default-dev, mpich, openmpi-bin
+Architecture: any all
+Standards-Version: 4.5.0
+Format: 3.0 (quilt)
+Directory: pool/main/s/sionlib
+Files:
+ ae2705166cbb5d509f1a7d1dfe83b213 2832 sionlib_1.7.6-1~bpo11.pdidev.3532553.debian.tar.xz
+ 8fea526a74c8125d360d7b3195734636 2127 sionlib_1.7.6-1~bpo11.pdidev.3532553.dsc
+ 3f8d8b4d99960adc34daa7a2840cc4b7 486418 sionlib_1.7.6.orig.tar.gz
+Package-List:
+ libsion-headers deb libs optional arch=all
+ libsion-mpich-dev deb libs optional arch=any
+ libsion-openmpi-dev deb libs optional arch=any
+ libsion-serial-dev deb libs optional arch=any
+Checksums-Sha512:
+ 9d5c1128415f4664be0657dc70c622fa3980e872717a657e8b0ae969bb99e96871c5fb4095aa56bda46d63110ebb941fb1a95d03417b18b631603a906284fcd9 2832 sionlib_1.7.6-1~bpo11.pdidev.3532553.debian.tar.xz
+ 09d20d54bc472711274f583341f32f7451731452b82c55a8d46ed44a7c6819e1e1d4c81d80b4aa680e859d5fc36ab41a061ad7f6b27f625f1896e5cebc5d4183 2127 sionlib_1.7.6-1~bpo11.pdidev.3532553.dsc
+ afdd8520f489bc940edc51ffa636a25cad778de07bfbb21d2bd2ab767e57b16044990d85ef44d2e6482a376196f5c6a2a6f1a71556dd987f8094dd396a971d1c 486418 sionlib_1.7.6.orig.tar.gz
+Checksums-Sha1:
+ f8bbabc44dfecbdf7e4bbda4eb5af438d10d54c3 2832 sionlib_1.7.6-1~bpo11.pdidev.3532553.debian.tar.xz
+ 67f090ce908059be2eecd6b246133d2a9513310a 2127 sionlib_1.7.6-1~bpo11.pdidev.3532553.dsc
+ db9ee8ebdd2d1a34013e4590d5c8ef9bf0264896 486418 sionlib_1.7.6.orig.tar.gz
+Checksums-Sha256:
+ acd68523221627082b3314bf291b3786a8ce97863c34dd33e5a1fca5f46883d7 2832 sionlib_1.7.6-1~bpo11.pdidev.3532553.debian.tar.xz
+ 30900435aea73882931dd95a3cd4a44a98d684b88195f7d0995072f58c89f71a 2127 sionlib_1.7.6-1~bpo11.pdidev.3532553.dsc
+ e85253ed3cd17a3b1c124ccd704caea3ad3c200abfcca9cc0851cb14f5a60691 486418 sionlib_1.7.6.orig.tar.gz
+Homepage: https://www.fz-juelich.de/ias/jsc/EN/Expertise/Support/Software/SIONlib/_node.html
+
+Package: zpp
+Binary: zpp
+Version: 1.0.9-1~bpo11.pdidev.608131
+Maintainer: Julien Bigot <julien.bigot@cea.fr>
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools
+Architecture: all
+Standards-Version: 4.4.1
+Format: 3.0 (quilt)
+Directory: pool/main/z/zpp
+Files:
+ 5b2ec6b46c66bc7ff8b57e80ba29525b 1820 zpp_1.0.9-1~bpo11.pdidev.608131.debian.tar.xz
+ 3ecd8e846dca008317a67e6d868d221a 1781 zpp_1.0.9-1~bpo11.pdidev.608131.dsc
+ 966d57fe6b0553ec940055ffc868fda3 13763 zpp_1.0.9.orig.tar.gz
+Homepage: https://github.com/jbigot/zpp
+Checksums-Sha1:
+ 565ae0c6b5b27eeb85654884bafb7e85fc0623e9 1820 zpp_1.0.9-1~bpo11.pdidev.608131.debian.tar.xz
+ 703781b85be17c7f8ba83c223c3ea773156b33be 1781 zpp_1.0.9-1~bpo11.pdidev.608131.dsc
+ cebfc165bcbbf8518d2c9b85a879991625a58097 13763 zpp_1.0.9.orig.tar.gz
+Checksums-Sha512:
+ 6e83f7f30b4ccc784b460c711ea392c78e44784f6f7afaab81d16e817ca2aafed626bf73ff5973105a4a42430eff7f979b37702a2b6e07aa011e9eb5ade0fed5 1820 zpp_1.0.9-1~bpo11.pdidev.608131.debian.tar.xz
+ 49faccfa86c7b88d957a171e8d4085c751716645fbb7445ad874326695b21db2010141728c94ce40ac66742003184316fe6b901d4295a7050ed37d7498d33316 1781 zpp_1.0.9-1~bpo11.pdidev.608131.dsc
+ 6de0768cf68e999d4f09b082b7276eb3465a0fce0b1e2f3d8cfc38c62694037898166635f504f7ea477265453448277680da2a758c43a5dd998ccf4cb5505943 13763 zpp_1.0.9.orig.tar.gz
+Package-List:
+ zpp deb unknown optional arch=all
+Checksums-Sha256:
+ 7655c67cc4a8a0317a49582bdade0a85f5d011af3a9a53bb27db52617273ae68 1820 zpp_1.0.9-1~bpo11.pdidev.608131.debian.tar.xz
+ 8051c1880537c4abc656270edcf76a27b0f71333e1b9517250dc55517af05f39 1781 zpp_1.0.9-1~bpo11.pdidev.608131.dsc
+ 2626ba9af5c28b13b03bff7902199dbf02ec950ae2557b5a85c8e25ad055c4a1 13763 zpp_1.0.9.orig.tar.gz
+
