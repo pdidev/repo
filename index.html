@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>Debian GNU/Linux PDI repository</title>
+</head>
+<body>
+<h1>Debian GNU/Linux package repository for PDI and related software</h1>
+<p>
+This is the repository that holds the Debian GNU/Linux packages of PDI and related projects.
+</p>
+<p>
+The list of repositories for all distributions is available at: <a href="https://github.com/pdidev/repo/">https://github.com/pdidev/repo/</a>
+</p>
+<h2>Install the packages</h2>
+<p>
+To actually install the packages, use the following instructions.
+</p>
+<h3> On Debian GNU/Linux 12 (Bookworm)</h3>
+<code>
+echo "deb [ arch=amd64 ] https://repo.pdi.dev/debian bookworm main" | sudo tee /etc/apt/sources.list.d/pdi.list > /dev/null
+sudo wget -O /etc/apt/trusted.gpg.d/pdidev-archive-keyring.gpg https://repo.pdi.dev/debian/pdidev-archive-keyring.gpg
+sudo chmod a+r /etc/apt/trusted.gpg.d/pdidev-archive-keyring.gpg /etc/apt/sources.list.d/pdi.list
+sudo apt update
+sudo apt install pdidev-archive-keyring libpdi-dev pdiplugin-all
+</code>
+<h3> On Debian GNU/Linux 13 (Trixie)</h3>
+<code>
+echo "deb [ arch=amd64 ] https://repo.pdi.dev/debian trixie main" | sudo tee /etc/apt/sources.list.d/pdi.list > /dev/null
+sudo wget -O /etc/apt/trusted.gpg.d/pdidev-archive-keyring.gpg https://repo.pdi.dev/debian/pdidev-archive-keyring.gpg
+sudo chmod a+r /etc/apt/trusted.gpg.d/pdidev-archive-keyring.gpg /etc/apt/sources.list.d/pdi.list
+sudo apt update
+sudo apt install pdidev-archive-keyring libpdi-dev pdiplugin-all
+</code>
+<h3> On Debian GNU/Linux Sid</h3>
+<code>
+echo "deb [ arch=amd64 ] https://repo.pdi.dev/debian sid main" | sudo tee /etc/apt/sources.list.d/pdi.list > /dev/null
+sudo wget -O /etc/apt/trusted.gpg.d/pdidev-archive-keyring.gpg https://repo.pdi.dev/debian/pdidev-archive-keyring.gpg
+sudo chmod a+r /etc/apt/trusted.gpg.d/pdidev-archive-keyring.gpg /etc/apt/sources.list.d/pdi.list
+sudo apt update
+sudo apt install pdidev-archive-keyring libpdi-dev pdiplugin-all
+</code>
+
+</body>
+</html>
